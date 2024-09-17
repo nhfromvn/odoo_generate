@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_research_title_form" model="ir.ui.view">
+                    <field name="name">research.title.form</field>
+                    <field name="model">research.title</field>
+                    <field name="arch" type="xml">
+                        <form string="Research Title">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                    </group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_research_title_tree" model="ir.ui.view">
+        <field name="name">research.title.tree</field>
+        <field name="model">research.title</field>
+        <field name="arch" type="xml">
+            <tree string="Research Title">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_research_title_search" model="ir.ui.view">
+        <field name="name">research.title.search</field>
+        <field name="model">research.title</field>
+        <field name="arch" type="xml">
+            <search string="Research Title">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_research_title" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Research Title</field>
+        <field name="res_model">research.title</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_research_title_search"/>
+    </record>
+
+
+<menuitem id="menu_research_title" parent="menu_ums_hr_titles" name="Research title" action="action_research_title"/>
+</odoo>

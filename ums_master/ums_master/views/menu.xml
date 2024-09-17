@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_ums_master" name="Ums Master"/>
+            <menuitem id="menu_ums_geo" name="Geography and Demography" parent="menu_ums_master"/>
+            <menuitem id="menu_ums_training" name="Training" parent="menu_ums_master"/>
+            <menuitem id="menu_ums_hr" name="Human resources" parent="menu_ums_master"/>
+            <menuitem id="menu_ums_certi" name="Certificate and Degree" parent="menu_ums_master"/>
+            <menuitem id="menu_ums_finance" name="Finance" parent="menu_ums_master"/>
+            <menuitem id="menu_ums_department" name="Department" parent="menu_ums_master"/>
+            <menuitem id="menu_ums_reward_disciplinary" name="Reward and Disciplinary" parent="menu_ums_master"/>
+            <menuitem id="menu_ums_science_research" name="Science and reasearch" parent="menu_ums_master"/>
+            <menuitem id="menu_ums_admin" name="Administrative and Politics" parent="menu_ums_master"/>
+            <menuitem id="menu_ums_health" name="Health and Medicine" parent="menu_ums_master"/>
+                <menuitem id="menu_ums_course" name="Course" parent="menu_ums_training"/>
+                <menuitem id="menu_ums_training_program" name="Training program" parent="menu_ums_training"/>
+                <menuitem id="menu_ums_learning_space" name="Learning space" parent="menu_ums_training"/>
+                <menuitem id="menu_ums_hr_titles" name="Titles and Positions" parent="menu_ums_hr"/>
+                <menuitem id="menu_ums_hr_pay_grade" name="Pay grade" parent="menu_ums_hr"/>
+                <menuitem id="menu_ums_hr_qualification" name="Educational Qualification" parent="menu_ums_hr"/>
+                <menuitem id="menu_ums_hr_other" name="Other" parent="menu_ums_hr"/>
+                <menuitem id="menu_ums_resources" name="Financial Resources" parent="menu_ums_finance"/>
+                <menuitem id="menu_ums_revenue_gr" name="Revenue" parent="menu_ums_finance"/>
+                <menuitem id="menu_ums_expense_gr" name="Expense" parent="menu_ums_finance"/>
+                <menuitem id="menu_ums_income_types" name="Income Types" parent="menu_ums_finance"/>
+                <menuitem id="menu_ums_scholarship" name="Scholarship" parent="menu_ums_finance"/>
+                <menuitem id="menu_ums_reward" name="Rewards" parent="menu_ums_reward_disciplinary"/>
+                <menuitem id="menu_ums_disciplinary" name="Disciplinary" parent="menu_ums_reward_disciplinary"/>
+</odoo>

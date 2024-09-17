@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_hr_academic_form" model="ir.ui.view">
+                    <field name="name">hr.academic.form</field>
+                    <field name="model">hr.academic</field>
+                    <field name="arch" type="xml">
+                        <form string="Hr Academic">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_hr_academic_tree" model="ir.ui.view">
+        <field name="name">hr.academic.tree</field>
+        <field name="model">hr.academic</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Academic">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_hr_academic_search" model="ir.ui.view">
+        <field name="name">hr.academic.search</field>
+        <field name="model">hr.academic</field>
+        <field name="arch" type="xml">
+            <search string="Hr Academic">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_hr_academic" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Academic</field>
+        <field name="res_model">hr.academic</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_hr_academic_search"/>
+    </record>
+
+
+<menuitem id="menu_hr_academic" parent="menu_ums_hr_qualification" name="Academic Title" action="action_hr_academic"/>
+</odoo>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_expense_form" model="ir.ui.view">
+                    <field name="name">ums.expense.form</field>
+                    <field name="model">ums.expense</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Expense">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_expense_tree" model="ir.ui.view">
+        <field name="name">ums.expense.tree</field>
+        <field name="model">ums.expense</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Expense">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_ums_expense_search" model="ir.ui.view">
+        <field name="name">ums.expense.search</field>
+        <field name="model">ums.expense</field>
+        <field name="arch" type="xml">
+            <search string="Ums Expense">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_ums_expense" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Expense</field>
+        <field name="res_model">ums.expense</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_ums_expense_search"/>
+    </record>
+
+
+<menuitem id="menu_ums_expense" parent="menu_ums_expense_gr" name="Expense" action="action_ums_expense"/>
+</odoo>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_officer_evaluate_form" model="ir.ui.view">
+                    <field name="name">ums.officer.evaluate.form</field>
+                    <field name="model">ums.officer.evaluate</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Officer Evaluate">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_officer_evaluate_tree" model="ir.ui.view">
+        <field name="name">ums.officer.evaluate.tree</field>
+        <field name="model">ums.officer.evaluate</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Officer Evaluate">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_ums_officer_evaluate_search" model="ir.ui.view">
+        <field name="name">ums.officer.evaluate.search</field>
+        <field name="model">ums.officer.evaluate</field>
+        <field name="arch" type="xml">
+            <search string="Ums Officer Evaluate">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_ums_officer_evaluate" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Officer Evaluate</field>
+        <field name="res_model">ums.officer.evaluate</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_ums_officer_evaluate_search"/>
+    </record>
+
+
+<menuitem id="menu_ums_officer_evaluate" parent="menu_ums_admin" name="Officer Evaluate" action="action_ums_officer_evaluate"/>
+</odoo>

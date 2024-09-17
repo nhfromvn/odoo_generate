@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_expense_source_form" model="ir.ui.view">
+                    <field name="name">expense.source.form</field>
+                    <field name="model">expense.source</field>
+                    <field name="arch" type="xml">
+                        <form string="Expense Source">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                        <field name='code'/>
+                                    </group>
+                                    <group>
+                                        <field name='note'/>
+                                        <field name='type'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_expense_source_tree" model="ir.ui.view">
+        <field name="name">expense.source.tree</field>
+        <field name="model">expense.source</field>
+        <field name="arch" type="xml">
+            <tree string="Expense Source">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+                <field name='type'/>
+                <field name='sequence'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_expense_source_search" model="ir.ui.view">
+        <field name="name">expense.source.search</field>
+        <field name="model">expense.source</field>
+        <field name="arch" type="xml">
+            <search string="Expense Source">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_expense_source" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Expense Source</field>
+        <field name="res_model">expense.source</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_expense_source_search"/>
+    </record>
+
+
+<menuitem id="menu_expense_source" parent="menu_ums_resources" name="Source of expenditure" action="action_expense_source"/>
+</odoo>

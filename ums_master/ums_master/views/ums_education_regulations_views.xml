@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_education_regulations_form" model="ir.ui.view">
+                    <field name="name">ums.education.regulations.form</field>
+                    <field name="model">ums.education.regulations</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Education Regulations">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_education_regulations_tree" model="ir.ui.view">
+        <field name="name">ums.education.regulations.tree</field>
+        <field name="model">ums.education.regulations</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Education Regulations">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_ums_education_regulations_search" model="ir.ui.view">
+        <field name="name">ums.education.regulations.search</field>
+        <field name="model">ums.education.regulations</field>
+        <field name="arch" type="xml">
+            <search string="Ums Education Regulations">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_ums_education_regulations" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Education Regulations</field>
+        <field name="res_model">ums.education.regulations</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_ums_education_regulations_search"/>
+    </record>
+
+
+<menuitem id="menu_ums_education_regulations" parent="menu_ums_training_program" name="Education Regulations" action="action_ums_education_regulations"/>
+</odoo>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_object_classification_form" model="ir.ui.view">
+                    <field name="name">object.classification.form</field>
+                    <field name="model">object.classification</field>
+                    <field name="arch" type="xml">
+                        <form string="Object Classification">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_object_classification_tree" model="ir.ui.view">
+        <field name="name">object.classification.tree</field>
+        <field name="model">object.classification</field>
+        <field name="arch" type="xml">
+            <tree string="Object Classification">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_object_classification_search" model="ir.ui.view">
+        <field name="name">object.classification.search</field>
+        <field name="model">object.classification</field>
+        <field name="arch" type="xml">
+            <search string="Object Classification">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_object_classification" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Object Classification</field>
+        <field name="res_model">object.classification</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_object_classification_search"/>
+    </record>
+
+
+<menuitem id="menu_object_classification" parent="menu_ums_admin" name="Object Classification" action="action_object_classification"/>
+</odoo>

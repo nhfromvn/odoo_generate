@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_education_form_form" model="ir.ui.view">
+                    <field name="name">education.form.form</field>
+                    <field name="model">education.form</field>
+                    <field name="arch" type="xml">
+                        <form string="Education Form">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='note'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_education_form_tree" model="ir.ui.view">
+        <field name="name">education.form.tree</field>
+        <field name="model">education.form</field>
+        <field name="arch" type="xml">
+            <tree string="Education Form">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_education_form_search" model="ir.ui.view">
+        <field name="name">education.form.search</field>
+        <field name="model">education.form</field>
+        <field name="arch" type="xml">
+            <search string="Education Form">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_education_form" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Education Form</field>
+        <field name="res_model">education.form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_education_form_search"/>
+    </record>
+
+
+<menuitem id="menu_education_form" parent="menu_ums_training_program" name="Education Form" action="action_education_form"/>
+</odoo>

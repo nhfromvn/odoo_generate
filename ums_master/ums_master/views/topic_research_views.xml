@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_topic_research_form" model="ir.ui.view">
+                    <field name="name">topic.research.form</field>
+                    <field name="model">topic.research</field>
+                    <field name="arch" type="xml">
+                        <form string="Topic Research">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_topic_research_tree" model="ir.ui.view">
+        <field name="name">topic.research.tree</field>
+        <field name="model">topic.research</field>
+        <field name="arch" type="xml">
+            <tree string="Topic Research">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='sequence'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_topic_research_search" model="ir.ui.view">
+        <field name="name">topic.research.search</field>
+        <field name="model">topic.research</field>
+        <field name="arch" type="xml">
+            <search string="Topic Research">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_topic_research" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Topic Research</field>
+        <field name="res_model">topic.research</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_topic_research_search"/>
+    </record>
+
+
+<menuitem id="menu_topic_research" parent="menu_ums_science_research" name="Topic area" action="action_topic_research"/>
+</odoo>

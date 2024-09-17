@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_research_area_form" model="ir.ui.view">
+                    <field name="name">research.area.form</field>
+                    <field name="model">research.area</field>
+                    <field name="arch" type="xml">
+                        <form string="Research Area">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_research_area_tree" model="ir.ui.view">
+        <field name="name">research.area.tree</field>
+        <field name="model">research.area</field>
+        <field name="arch" type="xml">
+            <tree string="Research Area">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_research_area_search" model="ir.ui.view">
+        <field name="name">research.area.search</field>
+        <field name="model">research.area</field>
+        <field name="arch" type="xml">
+            <search string="Research Area">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_research_area" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Research Area</field>
+        <field name="res_model">research.area</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_research_area_search"/>
+    </record>
+
+
+<menuitem id="menu_research_area" parent="menu_ums_science_research" name="Research Area" action="action_research_area"/>
+</odoo>

@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_master_hr_political_theory_form" model="ir.ui.view">
+        <field name="name">hr.political.theory.form</field>
+        <field name="model">hr.political.theory</field>
+        <field name="arch" type="xml">
+            <form string="Hr Political Theory">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_political_theory_tree" model="ir.ui.view">
+        <field name="name">hr.political.theory.tree</field>
+        <field name="model">hr.political.theory</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Political Theory">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_political_theory_search" model="ir.ui.view">
+        <field name="name">hr.political.theory.search</field>
+        <field name="model">hr.political.theory</field>
+        <field name="arch" type="xml">
+            <search string="Hr Political Theory">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_political_theory" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Political Theory</field>
+        <field name="res_model">hr.political.theory</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_political_theory_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_political_theory" parent="ums_master.menu_ums_hr_qualification" name="Political Theory Level" action="action_master_hr_political_theory"/>
+
+    <record id="view_master_hr_state_management_form" model="ir.ui.view">
+        <field name="name">hr.state.management.form</field>
+        <field name="model">hr.state.management</field>
+        <field name="arch" type="xml">
+            <form string="Hr State Management">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_state_management_tree" model="ir.ui.view">
+        <field name="name">hr.state.management.tree</field>
+        <field name="model">hr.state.management</field>
+        <field name="arch" type="xml">
+            <tree string="Hr State Management">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_state_management_search" model="ir.ui.view">
+        <field name="name">hr.state.management.search</field>
+        <field name="model">hr.state.management</field>
+        <field name="arch" type="xml">
+            <search string="Hr State Management">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_state_management" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr State Management</field>
+        <field name="res_model">hr.state.management</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_state_management_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_state_management" parent="ums_master.menu_ums_hr_qualification" name="Public Administration Level" action="action_master_hr_state_management"/>
+
+    <record id="view_master_hr_computer_skill_form" model="ir.ui.view">
+        <field name="name">hr.computer.skill.form</field>
+        <field name="model">hr.computer.skill</field>
+        <field name="arch" type="xml">
+            <form string="Hr Computer Skill">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_computer_skill_tree" model="ir.ui.view">
+        <field name="name">hr.computer.skill.tree</field>
+        <field name="model">hr.computer.skill</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Computer Skill">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_computer_skill_search" model="ir.ui.view">
+        <field name="name">hr.computer.skill.search</field>
+        <field name="model">hr.computer.skill</field>
+        <field name="arch" type="xml">
+            <search string="Hr Computer Skill">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_computer_skill" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Computer Skill</field>
+        <field name="res_model">hr.computer.skill</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_computer_skill_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_computer_skill" parent="ums_master.menu_ums_hr_qualification" name="Computer Skill Level" action="action_master_hr_computer_skill"/>
+
+    <record id="view_master_hr_academic_level_form" model="ir.ui.view">
+        <field name="name">hr.academic.level.form</field>
+        <field name="model">hr.academic.level</field>
+        <field name="arch" type="xml">
+            <form string="Hr Academic Level">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_academic_level_tree" model="ir.ui.view">
+        <field name="name">hr.academic.level.tree</field>
+        <field name="model">hr.academic.level</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Academic Level">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_academic_level_search" model="ir.ui.view">
+        <field name="name">hr.academic.level.search</field>
+        <field name="model">hr.academic.level</field>
+        <field name="arch" type="xml">
+            <search string="Hr Academic Level">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_academic_level" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Academic Level</field>
+        <field name="res_model">hr.academic.level</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_academic_level_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_academic_level" parent="ums_master.menu_ums_hr_qualification" name="Education level" action="action_master_hr_academic_level"/>
+
+    <record id="view_master_hr_reward_decision_form" model="ir.ui.view">
+        <field name="name">hr.reward.decision.form</field>
+        <field name="model">hr.reward.decision</field>
+        <field name="arch" type="xml">
+            <form string="Hr Reward Decision">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='object'/>
+                            <field name='note'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_reward_decision_tree" model="ir.ui.view">
+        <field name="name">hr.reward.decision.tree</field>
+        <field name="model">hr.reward.decision</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Reward Decision">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='object'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_reward_decision_search" model="ir.ui.view">
+        <field name="name">hr.reward.decision.search</field>
+        <field name="model">hr.reward.decision</field>
+        <field name="arch" type="xml">
+            <search string="Hr Reward Decision">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_reward_decision" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Reward Decision</field>
+        <field name="res_model">hr.reward.decision</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_reward_decision_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_reward_decision" parent="ums_master.menu_ums_reward" name="Rewarder" action="action_master_hr_reward_decision"/>
+
+    <record id="view_master_hr_contract_type_form" model="ir.ui.view">
+        <field name="name">hr.contract.type.form</field>
+        <field name="model">hr.contract.type</field>
+        <field name="arch" type="xml">
+            <form string="Hr Contract Type">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                            <field name='month'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_contract_type_tree" model="ir.ui.view">
+        <field name="name">hr.contract.type.tree</field>
+        <field name="model">hr.contract.type</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Contract Type">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+                <field name='month'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_contract_type_search" model="ir.ui.view">
+        <field name="name">hr.contract.type.search</field>
+        <field name="model">hr.contract.type</field>
+        <field name="arch" type="xml">
+            <search string="Hr Contract Type">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_contract_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Contract Type</field>
+        <field name="res_model">hr.contract.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_contract_type_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_contract_type" parent="ums_master.menu_ums_hr_other" name="Contract Type" action="action_master_hr_contract_type"/>
+
+    <record id="view_master_res_lang_form" model="ir.ui.view">
+        <field name="name">res.lang.form</field>
+        <field name="model">res.lang</field>
+        <field name="arch" type="xml">
+            <form string="Res Lang">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='code'/>
+                            <field name='name'/>
+                        </group>
+                        <group>
+                            <field name='abbr_name'/>
+                            <field name='note'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_res_lang_tree" model="ir.ui.view">
+        <field name="name">res.lang.tree</field>
+        <field name="model">res.lang</field>
+        <field name="arch" type="xml">
+            <tree string="Res Lang">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_res_lang_search" model="ir.ui.view">
+        <field name="name">res.lang.search</field>
+        <field name="model">res.lang</field>
+        <field name="arch" type="xml">
+            <search string="Res Lang">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_res_lang" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Res Lang</field>
+        <field name="res_model">res.lang</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_res_lang_search"/>
+    </record>
+
+<menuitem id="menu_master_res_lang" parent="ums_master.menu_ums_hr_qualification" name="Language" action="action_master_res_lang"/>
+
+    <record id="view_master_hr_degree_form" model="ir.ui.view">
+        <field name="name">hr.degree.form</field>
+        <field name="model">hr.degree</field>
+        <field name="arch" type="xml">
+            <form string="Hr Degree">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                            <field name='sequence'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_degree_tree" model="ir.ui.view">
+        <field name="name">hr.degree.tree</field>
+        <field name="model">hr.degree</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Degree">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_degree_search" model="ir.ui.view">
+        <field name="name">hr.degree.search</field>
+        <field name="model">hr.degree</field>
+        <field name="arch" type="xml">
+            <search string="Hr Degree">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_degree" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Degree</field>
+        <field name="res_model">hr.degree</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_degree_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_degree" parent="ums_master.menu_ums_hr_qualification" name="Academic Degree" action="action_master_hr_degree"/>
+
+    <record id="view_master_hr_ethnic_form" model="ir.ui.view">
+        <field name="name">hr.ethnic.form</field>
+        <field name="model">hr.ethnic</field>
+        <field name="arch" type="xml">
+            <form string="Hr Ethnic">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                            <field name='sequence'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_ethnic_tree" model="ir.ui.view">
+        <field name="name">hr.ethnic.tree</field>
+        <field name="model">hr.ethnic</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Ethnic">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_ethnic_search" model="ir.ui.view">
+        <field name="name">hr.ethnic.search</field>
+        <field name="model">hr.ethnic</field>
+        <field name="arch" type="xml">
+            <search string="Hr Ethnic">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_ethnic" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Ethnic</field>
+        <field name="res_model">hr.ethnic</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_ethnic_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_ethnic" parent="ums_master.menu_ums_geo" name="Ethnicity" action="action_master_hr_ethnic"/>
+
+    <record id="view_master_hr_religion_form" model="ir.ui.view">
+        <field name="name">hr.religion.form</field>
+        <field name="model">hr.religion</field>
+        <field name="arch" type="xml">
+            <form string="Hr Religion">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                            <field name='sequence'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_religion_tree" model="ir.ui.view">
+        <field name="name">hr.religion.tree</field>
+        <field name="model">hr.religion</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Religion">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_religion_search" model="ir.ui.view">
+        <field name="name">hr.religion.search</field>
+        <field name="model">hr.religion</field>
+        <field name="arch" type="xml">
+            <search string="Hr Religion">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_religion" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Religion</field>
+        <field name="res_model">hr.religion</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_religion_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_religion" parent="ums_master.menu_ums_geo" name="Religion" action="action_master_hr_religion"/>
+
+    <record id="view_master_bms_hr_job_tilte_form" model="ir.ui.view">
+        <field name="name">bms.hr.job.tilte.form</field>
+        <field name="model">bms.hr.job.tilte</field>
+        <field name="arch" type="xml">
+            <form string="Bms Hr Job Tilte">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='code'/>
+                            <field name='toxic_profession'/>
+                        </group>
+                        <group>
+                            <field name='is_mid_level_tech'/>
+                            <field name='color'/>
+                            <field name='abbr_name'/>
+                            <field name='note'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_bms_hr_job_tilte_tree" model="ir.ui.view">
+        <field name="name">bms.hr.job.tilte.tree</field>
+        <field name="model">bms.hr.job.tilte</field>
+        <field name="arch" type="xml">
+            <tree string="Bms Hr Job Tilte">
+                <field name='name'/>
+                <field name='code'/>
+                <field name='toxic_profession'/>
+                <field name='is_mid_level_tech'/>
+                <field name='abbr_name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_bms_hr_job_tilte_search" model="ir.ui.view">
+        <field name="name">bms.hr.job.tilte.search</field>
+        <field name="model">bms.hr.job.tilte</field>
+        <field name="arch" type="xml">
+            <search string="Bms Hr Job Tilte">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_bms_hr_job_tilte" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Bms Hr Job Tilte</field>
+        <field name="res_model">bms.hr.job.tilte</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_bms_hr_job_tilte_search"/>
+    </record>
+
+<menuitem id="menu_master_bms_hr_job_tilte" parent="ums_master.menu_ums_hr_titles" name="Job Title" action="action_master_bms_hr_job_tilte"/>
+
+    <record id="view_master_hr_paygrade_form" model="ir.ui.view">
+        <field name="name">hr.paygrade.form</field>
+        <field name="model">hr.paygrade</field>
+        <field name="arch" type="xml">
+            <form string="Hr Paygrade">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='code'/>
+                            <field name='code_2'/>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                            <field name='number_upgrade'/>
+                        </group>
+                        <group>
+                            <field name='beyond_pay_scale'/>
+                            <field name='sequence'/>
+                            <field name='note'/>
+                            <field name='paygrade_level_id'/>
+                            <field name='paygrade_ids'/>
+                            <field name='job_title_id'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_paygrade_tree" model="ir.ui.view">
+        <field name="name">hr.paygrade.tree</field>
+        <field name="model">hr.paygrade</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Paygrade">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='paygrade_level_id'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_paygrade_search" model="ir.ui.view">
+        <field name="name">hr.paygrade.search</field>
+        <field name="model">hr.paygrade</field>
+        <field name="arch" type="xml">
+            <search string="Hr Paygrade">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_paygrade" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Paygrade</field>
+        <field name="res_model">hr.paygrade</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_paygrade_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_paygrade" parent="ums_master.menu_ums_hr_pay_grade" name="Paygrade" action="action_master_hr_paygrade"/>
+
+    <record id="view_master_hr_paygrade_line_form" model="ir.ui.view">
+        <field name="name">hr.paygrade.line.form</field>
+        <field name="model">hr.paygrade.line</field>
+        <field name="arch" type="xml">
+            <form string="Hr Paygrade Line">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='salary_grade_id'/>
+                            <field name='coefficient'/>
+                        </group>
+                        <group>
+                            <field name='paygrade_id'/>
+                            <field name='note'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_paygrade_line_tree" model="ir.ui.view">
+        <field name="name">hr.paygrade.line.tree</field>
+        <field name="model">hr.paygrade.line</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Paygrade Line">
+                <field name='salary_grade_id'/>
+                <field name='coefficient'/>
+                <field name='paygrade_id'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_master_hr_paygrade_line" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Paygrade Line</field>
+        <field name="res_model">hr.paygrade.line</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<menuitem id="menu_master_hr_paygrade_line" parent="ums_master.menu_ums_hr_pay_grade" name="paygrade line" action="action_master_hr_paygrade_line"/>
+
+    <record id="view_master_res_country_state_form" model="ir.ui.view">
+        <field name="name">res.country.state.form</field>
+        <field name="model">res.country.state</field>
+        <field name="arch" type="xml">
+            <form string="Res Country State">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='code'/>
+                            <field name='name'/>
+                            <field name='code_state_bhxh'/>
+                            <field name='name_state_bhxh'/>
+                            <field name='eng_name'/>
+                        </group>
+                        <group>
+                            <field name='other_name'/>
+                            <field name='code_state_portal'/>
+                            <field name='note'/>
+                            <field name='country_id'/>
+                            <field name='district_ids'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_res_country_state_tree" model="ir.ui.view">
+        <field name="name">res.country.state.tree</field>
+        <field name="model">res.country.state</field>
+        <field name="arch" type="xml">
+            <tree string="Res Country State">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='code_state_bhxh'/>
+                <field name='country_id'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_res_country_state_search" model="ir.ui.view">
+        <field name="name">res.country.state.search</field>
+        <field name="model">res.country.state</field>
+        <field name="arch" type="xml">
+            <search string="Res Country State">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_res_country_state" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Res Country State</field>
+        <field name="res_model">res.country.state</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_res_country_state_search"/>
+    </record>
+
+<menuitem id="menu_master_res_country_state" parent="ums_master.menu_ums_geo" name="State" action="action_master_res_country_state"/>
+
+    <record id="view_master_res_country_form" model="ir.ui.view">
+        <field name="name">res.country.form</field>
+        <field name="model">res.country</field>
+        <field name="arch" type="xml">
+            <form string="Res Country">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='code'/>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='note'/>
+                            <field name='phone_code'/>
+                            <field name='state_ids'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_res_country_tree" model="ir.ui.view">
+        <field name="name">res.country.tree</field>
+        <field name="model">res.country</field>
+        <field name="arch" type="xml">
+            <tree string="Res Country">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='abbr_name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_res_country_search" model="ir.ui.view">
+        <field name="name">res.country.search</field>
+        <field name="model">res.country</field>
+        <field name="arch" type="xml">
+            <search string="Res Country">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_res_country" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Res Country</field>
+        <field name="res_model">res.country</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_res_country_search"/>
+    </record>
+
+<menuitem id="menu_master_res_country" parent="ums_master.menu_ums_geo" name="Country" action="action_master_res_country"/>
+
+    <record id="view_master_hr_family_relationship_form" model="ir.ui.view">
+        <field name="name">hr.family.relationship.form</field>
+        <field name="model">hr.family.relationship</field>
+        <field name="arch" type="xml">
+            <form string="Hr Family Relationship">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                            <field name='sequence'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_family_relationship_tree" model="ir.ui.view">
+        <field name="name">hr.family.relationship.tree</field>
+        <field name="model">hr.family.relationship</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Family Relationship">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_family_relationship_search" model="ir.ui.view">
+        <field name="name">hr.family.relationship.search</field>
+        <field name="model">hr.family.relationship</field>
+        <field name="arch" type="xml">
+            <search string="Hr Family Relationship">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_family_relationship" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Family Relationship</field>
+        <field name="res_model">hr.family.relationship</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_family_relationship_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_family_relationship" parent="ums_master.menu_ums_hr_other" name="Relationship of family" action="action_master_hr_family_relationship"/>
+
+    <record id="view_master_hr_place_medical_form" model="ir.ui.view">
+        <field name="name">hr.place.medical.form</field>
+        <field name="model">hr.place.medical</field>
+        <field name="arch" type="xml">
+            <form string="Hr Place Medical">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='name'/>
+                            <field name='abbr_name'/>
+                        </group>
+                        <group>
+                            <field name='code'/>
+                            <field name='note'/>
+                            <field name='sequence'/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_master_hr_place_medical_tree" model="ir.ui.view">
+        <field name="name">hr.place.medical.tree</field>
+        <field name="model">hr.place.medical</field>
+        <field name="arch" type="xml">
+            <tree string="Hr Place Medical">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_master_hr_place_medical_search" model="ir.ui.view">
+        <field name="name">hr.place.medical.search</field>
+        <field name="model">hr.place.medical</field>
+        <field name="arch" type="xml">
+            <search string="Hr Place Medical">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_master_hr_place_medical" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Hr Place Medical</field>
+        <field name="res_model">hr.place.medical</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_master_hr_place_medical_search"/>
+    </record>
+
+<menuitem id="menu_master_hr_place_medical" parent="ums_master.menu_ums_health" name="Medical facility" action="action_master_hr_place_medical"/>
+</odoo>

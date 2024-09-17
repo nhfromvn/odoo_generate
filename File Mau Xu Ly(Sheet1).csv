@@ -1,0 +1,11 @@
+Table,Class,Description,Model_Type,Fields,Field Type,EN_String,VN_String,Many2many_model,Many2one_model,related
+account.move,AccountMove,abc xyz,models.Model,payment_state_before_switch,Char,Payment State Before Switch,Tình tr?ng TT tr??c tr?,,,
+,,,,deferred_move_ids,Many2many,Deferred Entries,Các bút toán,account.move,,
+bank.rec.widget,BankRecWidget,Bank reconciliation widget for a single statement line,models.Model,st_line_id,Many2one,,,,account.bank.statement.line,
+,,,,st_line_to_check,Boolean,,,,,st_line_id.move_id.to_check
+,,,,,,,,,,
+,,,,,,,,,,
+-> Sinh ra file py,,,,,,,,,,
+-> Sinh ra file xml,,,,,,,,,,
+-> Sinh ra file po,,,,,,,,,,
+'-> Sinh ra thêm 1 dòng file csv,,,,,,,,,,

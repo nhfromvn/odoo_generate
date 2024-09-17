@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_education_background_form" model="ir.ui.view">
+                    <field name="name">ums.education.background.form</field>
+                    <field name="model">ums.education.background</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Education Background">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_education_background_tree" model="ir.ui.view">
+        <field name="name">ums.education.background.tree</field>
+        <field name="model">ums.education.background</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Education Background">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_ums_education_background_search" model="ir.ui.view">
+        <field name="name">ums.education.background.search</field>
+        <field name="model">ums.education.background</field>
+        <field name="arch" type="xml">
+            <search string="Ums Education Background">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_ums_education_background" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Education Background</field>
+        <field name="res_model">ums.education.background</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_ums_education_background_search"/>
+    </record>
+
+
+<menuitem id="menu_ums_education_background" parent="menu_ums_hr_qualification" name="Education background" action="action_ums_education_background"/>
+</odoo>

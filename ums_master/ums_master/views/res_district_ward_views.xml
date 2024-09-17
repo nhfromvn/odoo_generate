@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_res_district_ward_form" model="ir.ui.view">
+                    <field name="name">res.district.ward.form</field>
+                    <field name="model">res.district.ward</field>
+                    <field name="arch" type="xml">
+                        <form string="Res District Ward">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='new_ward_name'/>
+                                        <field name='code_ward_bhxh'/>
+                                        <field name='note'/>
+                                        <field name='district_id'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_res_district_ward_tree" model="ir.ui.view">
+        <field name="name">res.district.ward.tree</field>
+        <field name="model">res.district.ward</field>
+        <field name="arch" type="xml">
+            <tree string="Res District Ward">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='district_id'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_res_district_ward_search" model="ir.ui.view">
+        <field name="name">res.district.ward.search</field>
+        <field name="model">res.district.ward</field>
+        <field name="arch" type="xml">
+            <search string="Res District Ward">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_res_district_ward" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Res District Ward</field>
+        <field name="res_model">res.district.ward</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_res_district_ward_search"/>
+    </record>
+
+
+<menuitem id="menu_res_district_ward" parent="menu_ums_geo" name="Ward" action="action_res_district_ward"/>
+</odoo>

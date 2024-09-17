@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_paygrade_level_form" model="ir.ui.view">
+                    <field name="name">paygrade.level.form</field>
+                    <field name="model">paygrade.level</field>
+                    <field name="arch" type="xml">
+                        <form string="Paygrade Level">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='note'/>
+                                        <field name='abbr_name'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_paygrade_level_tree" model="ir.ui.view">
+        <field name="name">paygrade.level.tree</field>
+        <field name="model">paygrade.level</field>
+        <field name="arch" type="xml">
+            <tree string="Paygrade Level">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='note'/>
+                <field name='abbr_name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_paygrade_level_search" model="ir.ui.view">
+        <field name="name">paygrade.level.search</field>
+        <field name="model">paygrade.level</field>
+        <field name="arch" type="xml">
+            <search string="Paygrade Level">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_paygrade_level" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Paygrade Level</field>
+        <field name="res_model">paygrade.level</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_paygrade_level_search"/>
+    </record>
+
+
+<menuitem id="menu_paygrade_level" parent="menu_ums_hr_pay_grade" name="Paygrade level" action="action_paygrade_level"/>
+</odoo>

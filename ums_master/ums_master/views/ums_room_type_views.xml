@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_room_type_form" model="ir.ui.view">
+                    <field name="name">ums.room.type.form</field>
+                    <field name="model">ums.room.type</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Room Type">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_room_type_tree" model="ir.ui.view">
+        <field name="name">ums.room.type.tree</field>
+        <field name="model">ums.room.type</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Room Type">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_ums_room_type_search" model="ir.ui.view">
+        <field name="name">ums.room.type.search</field>
+        <field name="model">ums.room.type</field>
+        <field name="arch" type="xml">
+            <search string="Ums Room Type">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_ums_room_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Room Type</field>
+        <field name="res_model">ums.room.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_ums_room_type_search"/>
+    </record>
+
+
+<menuitem id="menu_ums_room_type" parent="menu_ums_learning_space" name="Type of classroom" action="action_ums_room_type"/>
+</odoo>

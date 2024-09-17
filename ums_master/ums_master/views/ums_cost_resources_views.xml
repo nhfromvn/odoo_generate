@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_cost_resources_form" model="ir.ui.view">
+                    <field name="name">ums.cost.resources.form</field>
+                    <field name="model">ums.cost.resources</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Cost Resources">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_cost_resources_tree" model="ir.ui.view">
+        <field name="name">ums.cost.resources.tree</field>
+        <field name="model">ums.cost.resources</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Cost Resources">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_ums_cost_resources_search" model="ir.ui.view">
+        <field name="name">ums.cost.resources.search</field>
+        <field name="model">ums.cost.resources</field>
+        <field name="arch" type="xml">
+            <search string="Ums Cost Resources">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_ums_cost_resources" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Cost Resources</field>
+        <field name="res_model">ums.cost.resources</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_ums_cost_resources_search"/>
+    </record>
+
+
+<menuitem id="menu_ums_cost_resources" parent="menu_ums_resources" name="Cost resources" action="action_ums_cost_resources"/>
+</odoo>

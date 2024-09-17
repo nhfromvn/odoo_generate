@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_award_type_form" model="ir.ui.view">
+                    <field name="name">award.type.form</field>
+                    <field name="model">award.type</field>
+                    <field name="arch" type="xml">
+                        <form string="Award Type">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                        <field name='code'/>
+                                    </group>
+                                    <group>
+                                        <field name='sequence'/>
+                                        <field name='object'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_award_type_tree" model="ir.ui.view">
+        <field name="name">award.type.tree</field>
+        <field name="model">award.type</field>
+        <field name="arch" type="xml">
+            <tree string="Award Type">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='sequence'/>
+                <field name='object'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_award_type_search" model="ir.ui.view">
+        <field name="name">award.type.search</field>
+        <field name="model">award.type</field>
+        <field name="arch" type="xml">
+            <search string="Award Type">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_award_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Award Type</field>
+        <field name="res_model">award.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_award_type_search"/>
+    </record>
+
+
+<menuitem id="menu_award_type" parent="menu_ums_reward" name="Award Type" action="action_award_type"/>
+</odoo>

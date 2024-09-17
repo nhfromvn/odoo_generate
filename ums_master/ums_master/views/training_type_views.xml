@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_training_type_form" model="ir.ui.view">
+                    <field name="name">training.type.form</field>
+                    <field name="model">training.type</field>
+                    <field name="arch" type="xml">
+                        <form string="Training Type">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_training_type_tree" model="ir.ui.view">
+        <field name="name">training.type.tree</field>
+        <field name="model">training.type</field>
+        <field name="arch" type="xml">
+            <tree string="Training Type">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_training_type_search" model="ir.ui.view">
+        <field name="name">training.type.search</field>
+        <field name="model">training.type</field>
+        <field name="arch" type="xml">
+            <search string="Training Type">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_training_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Training Type</field>
+        <field name="res_model">training.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_training_type_search"/>
+    </record>
+
+
+<menuitem id="menu_training_type" parent="menu_ums_training_program" name="Training Type" action="action_training_type"/>
+</odoo>

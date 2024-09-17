@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_subject_type_form" model="ir.ui.view">
+                    <field name="name">subject.type.form</field>
+                    <field name="model">subject.type</field>
+                    <field name="arch" type="xml">
+                        <form string="Subject Type">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='code'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='sequence'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_subject_type_tree" model="ir.ui.view">
+        <field name="name">subject.type.tree</field>
+        <field name="model">subject.type</field>
+        <field name="arch" type="xml">
+            <tree string="Subject Type">
+                <field name='name'/>
+                <field name='code'/>
+                <field name='abbr_name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_subject_type_search" model="ir.ui.view">
+        <field name="name">subject.type.search</field>
+        <field name="model">subject.type</field>
+        <field name="arch" type="xml">
+            <search string="Subject Type">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_subject_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Subject Type</field>
+        <field name="res_model">subject.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_subject_type_search"/>
+    </record>
+
+
+<menuitem id="menu_subject_type" parent="menu_ums_course" name="Type of Subject" action="action_subject_type"/>
+</odoo>

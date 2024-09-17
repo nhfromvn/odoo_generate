@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_teacher_title_form" model="ir.ui.view">
+                    <field name="name">teacher.title.form</field>
+                    <field name="model">teacher.title</field>
+                    <field name="arch" type="xml">
+                        <form string="Teacher Title">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_teacher_title_tree" model="ir.ui.view">
+        <field name="name">teacher.title.tree</field>
+        <field name="model">teacher.title</field>
+        <field name="arch" type="xml">
+            <tree string="Teacher Title">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_teacher_title_search" model="ir.ui.view">
+        <field name="name">teacher.title.search</field>
+        <field name="model">teacher.title</field>
+        <field name="arch" type="xml">
+            <search string="Teacher Title">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_teacher_title" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Teacher Title</field>
+        <field name="res_model">teacher.title</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_teacher_title_search"/>
+    </record>
+
+
+<menuitem id="menu_teacher_title" parent="menu_ums_hr_titles" name="Teacher Title" action="action_teacher_title"/>
+</odoo>

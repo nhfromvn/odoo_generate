@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_wounded_soldier_class_form" model="ir.ui.view">
+                    <field name="name">wounded.soldier.class.form</field>
+                    <field name="model">wounded.soldier.class</field>
+                    <field name="arch" type="xml">
+                        <form string="Wounded Soldier Class">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                    </group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_wounded_soldier_class_tree" model="ir.ui.view">
+        <field name="name">wounded.soldier.class.tree</field>
+        <field name="model">wounded.soldier.class</field>
+        <field name="arch" type="xml">
+            <tree string="Wounded Soldier Class">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_wounded_soldier_class_search" model="ir.ui.view">
+        <field name="name">wounded.soldier.class.search</field>
+        <field name="model">wounded.soldier.class</field>
+        <field name="arch" type="xml">
+            <search string="Wounded Soldier Class">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_wounded_soldier_class" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Wounded Soldier Class</field>
+        <field name="res_model">wounded.soldier.class</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_wounded_soldier_class_search"/>
+    </record>
+
+
+<menuitem id="menu_wounded_soldier_class" parent="menu_ums_admin" name="Wounded soldier level" action="action_wounded_soldier_class"/>
+</odoo>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_policy_subject_social_benefit_form" model="ir.ui.view">
+                    <field name="name">policy.subject.social.benefit.form</field>
+                    <field name="model">policy.subject.social.benefit</field>
+                    <field name="arch" type="xml">
+                        <form string="Policy Subject Social Benefit">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                    </group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_policy_subject_social_benefit_tree" model="ir.ui.view">
+        <field name="name">policy.subject.social.benefit.tree</field>
+        <field name="model">policy.subject.social.benefit</field>
+        <field name="arch" type="xml">
+            <tree string="Policy Subject Social Benefit">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_policy_subject_social_benefit_search" model="ir.ui.view">
+        <field name="name">policy.subject.social.benefit.search</field>
+        <field name="model">policy.subject.social.benefit</field>
+        <field name="arch" type="xml">
+            <search string="Policy Subject Social Benefit">
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_policy_subject_social_benefit" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Policy Subject Social Benefit</field>
+        <field name="res_model">policy.subject.social.benefit</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_policy_subject_social_benefit_search"/>
+    </record>
+
+
+<menuitem id="menu_policy_subject_social_benefit" parent="menu_ums_geo" name="Policy subject social benefit" action="action_policy_subject_social_benefit"/>
+</odoo>

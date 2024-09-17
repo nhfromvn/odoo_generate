@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_specialization_form" model="ir.ui.view">
+                    <field name="name">ums.specialization.form</field>
+                    <field name="model">ums.specialization</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Specialization">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_specialization_tree" model="ir.ui.view">
+        <field name="name">ums.specialization.tree</field>
+        <field name="model">ums.specialization</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Specialization">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_ums_specialization_search" model="ir.ui.view">
+        <field name="name">ums.specialization.search</field>
+        <field name="model">ums.specialization</field>
+        <field name="arch" type="xml">
+            <search string="Ums Specialization">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_ums_specialization" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Specialization</field>
+        <field name="res_model">ums.specialization</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_ums_specialization_search"/>
+    </record>
+
+
+<menuitem id="menu_ums_specialization" parent="menu_ums_training_program" name="Specialization" action="action_ums_specialization"/>
+</odoo>

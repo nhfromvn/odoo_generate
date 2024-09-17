@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_appointment_form_form" model="ir.ui.view">
+                    <field name="name">appointment.form.form</field>
+                    <field name="model">appointment.form</field>
+                    <field name="arch" type="xml">
+                        <form string="Appointment Form">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_appointment_form_tree" model="ir.ui.view">
+        <field name="name">appointment.form.tree</field>
+        <field name="model">appointment.form</field>
+        <field name="arch" type="xml">
+            <tree string="Appointment Form">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+                <field name='sequence'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_appointment_form_search" model="ir.ui.view">
+        <field name="name">appointment.form.search</field>
+        <field name="model">appointment.form</field>
+        <field name="arch" type="xml">
+            <search string="Appointment Form">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_appointment_form" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Appointment Form</field>
+        <field name="res_model">appointment.form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_appointment_form_search"/>
+    </record>
+
+
+<menuitem id="menu_appointment_form" parent="menu_ums_hr_other" name="Appointment Form" action="action_appointment_form"/>
+</odoo>

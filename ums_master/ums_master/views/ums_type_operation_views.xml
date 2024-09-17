@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_type_operation_form" model="ir.ui.view">
+                    <field name="name">ums.type.operation.form</field>
+                    <field name="model">ums.type.operation</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Type Operation">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_type_operation_tree" model="ir.ui.view">
+        <field name="name">ums.type.operation.tree</field>
+        <field name="model">ums.type.operation</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Type Operation">
+                <field name='name'/>
+                <field name='code'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_ums_type_operation_search" model="ir.ui.view">
+        <field name="name">ums.type.operation.search</field>
+        <field name="model">ums.type.operation</field>
+        <field name="arch" type="xml">
+            <search string="Ums Type Operation">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_ums_type_operation" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Type Operation</field>
+        <field name="res_model">ums.type.operation</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_ums_type_operation_search"/>
+    </record>
+
+
+<menuitem id="menu_ums_type_operation" parent="menu_ums_admin" name="Content of operation VN" action="action_ums_type_operation"/>
+</odoo>

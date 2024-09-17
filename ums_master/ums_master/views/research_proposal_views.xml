@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_research_proposal_form" model="ir.ui.view">
+                    <field name="name">research.proposal.form</field>
+                    <field name="model">research.proposal</field>
+                    <field name="arch" type="xml">
+                        <form string="Research Proposal">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_research_proposal_tree" model="ir.ui.view">
+        <field name="name">research.proposal.tree</field>
+        <field name="model">research.proposal</field>
+        <field name="arch" type="xml">
+            <tree string="Research Proposal">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_research_proposal_search" model="ir.ui.view">
+        <field name="name">research.proposal.search</field>
+        <field name="model">research.proposal</field>
+        <field name="arch" type="xml">
+            <search string="Research Proposal">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_research_proposal" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Research Proposal</field>
+        <field name="res_model">research.proposal</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_research_proposal_search"/>
+    </record>
+
+
+<menuitem id="menu_research_proposal" parent="menu_ums_science_research" name="Research proposal" action="action_research_proposal"/>
+</odoo>

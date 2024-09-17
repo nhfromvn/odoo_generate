@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_syllabus_form" model="ir.ui.view">
+                    <field name="name">ums.syllabus.form</field>
+                    <field name="model">ums.syllabus</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Syllabus">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='man_department_id'/>
+                                        <field name='type_training_id'/>
+                                        <field name='cohort_id'/>
+                                    </group>
+                                    <group>
+                                        <field name='subject_id'/>
+                                        <field name='references_docs'/>
+                                        <field name='syllabus_files'/>
+                                        <field name='state'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_syllabus_tree" model="ir.ui.view">
+        <field name="name">ums.syllabus.tree</field>
+        <field name="model">ums.syllabus</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Syllabus">
+                <field name='man_department_id'/>
+                <field name='type_training_id'/>
+                <field name='cohort_id'/>
+                <field name='subject_id'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_ums_syllabus" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Syllabus</field>
+        <field name="res_model">ums.syllabus</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+<menuitem id="menu_ums_syllabus" parent="menu_ums_science_research" name="Outline" action="action_ums_syllabus"/>
+</odoo>

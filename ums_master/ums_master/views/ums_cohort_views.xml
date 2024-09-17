@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_ums_cohort_form" model="ir.ui.view">
+                    <field name="name">ums.cohort.form</field>
+                    <field name="model">ums.cohort</field>
+                    <field name="arch" type="xml">
+                        <form string="Ums Cohort">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='sequence'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_ums_cohort_tree" model="ir.ui.view">
+        <field name="name">ums.cohort.tree</field>
+        <field name="model">ums.cohort</field>
+        <field name="arch" type="xml">
+            <tree string="Ums Cohort">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_ums_cohort_search" model="ir.ui.view">
+        <field name="name">ums.cohort.search</field>
+        <field name="model">ums.cohort</field>
+        <field name="arch" type="xml">
+            <search string="Ums Cohort">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_ums_cohort" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Ums Cohort</field>
+        <field name="res_model">ums.cohort</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_ums_cohort_search"/>
+    </record>
+
+
+<menuitem id="menu_ums_cohort" parent="menu_ums_training_program" name="Cohort" action="action_ums_cohort"/>
+</odoo>

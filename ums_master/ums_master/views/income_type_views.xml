@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_income_type_form" model="ir.ui.view">
+                    <field name="name">income.type.form</field>
+                    <field name="model">income.type</field>
+                    <field name="arch" type="xml">
+                        <form string="Income Type">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                        <field name='code'/>
+                                    </group>
+                                    <group>
+                                        <field name='type'/>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_income_type_tree" model="ir.ui.view">
+        <field name="name">income.type.tree</field>
+        <field name="model">income.type</field>
+        <field name="arch" type="xml">
+            <tree string="Income Type">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='type'/>
+                <field name='note'/>
+                <field name='sequence'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_income_type_search" model="ir.ui.view">
+        <field name="name">income.type.search</field>
+        <field name="model">income.type</field>
+        <field name="arch" type="xml">
+            <search string="Income Type">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_income_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Income Type</field>
+        <field name="res_model">income.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_income_type_search"/>
+    </record>
+
+
+<menuitem id="menu_income_type" parent="menu_ums_income_types" name="Income Type" action="action_income_type"/>
+</odoo>

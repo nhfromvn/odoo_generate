@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_revenue_source_form" model="ir.ui.view">
+                    <field name="name">revenue.source.form</field>
+                    <field name="model">revenue.source</field>
+                    <field name="arch" type="xml">
+                        <form string="Revenue Source">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_revenue_source_tree" model="ir.ui.view">
+        <field name="name">revenue.source.tree</field>
+        <field name="model">revenue.source</field>
+        <field name="arch" type="xml">
+            <tree string="Revenue Source">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+                <field name='sequence'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_revenue_source_search" model="ir.ui.view">
+        <field name="name">revenue.source.search</field>
+        <field name="model">revenue.source</field>
+        <field name="arch" type="xml">
+            <search string="Revenue Source">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_revenue_source" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Revenue Source</field>
+        <field name="res_model">revenue.source</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_revenue_source_search"/>
+    </record>
+
+
+<menuitem id="menu_revenue_source" parent="menu_ums_resources" name="Revenue" action="action_revenue_source"/>
+</odoo>

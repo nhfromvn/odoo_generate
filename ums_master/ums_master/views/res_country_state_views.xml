@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_res_country_state_form" model="ir.ui.view">
+                    <field name="name">res.country.state.form</field>
+                    <field name="model">res.country.state</field>
+                    <field name="arch" type="xml">
+                        <form string="Res Country State">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                        <field name='code_state_bhxh'/>
+                                        <field name='name_state_bhxh'/>
+                                        <field name='eng_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='other_name'/>
+                                        <field name='code_state_portal'/>
+                                        <field name='note'/>
+                                        <field name='country_id'/>
+                                        <field name='district_ids'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_res_country_state_tree" model="ir.ui.view">
+        <field name="name">res.country.state.tree</field>
+        <field name="model">res.country.state</field>
+        <field name="arch" type="xml">
+            <tree string="Res Country State">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='code_state_bhxh'/>
+                <field name='country_id'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_res_country_state_search" model="ir.ui.view">
+        <field name="name">res.country.state.search</field>
+        <field name="model">res.country.state</field>
+        <field name="arch" type="xml">
+            <search string="Res Country State">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_res_country_state" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Res Country State</field>
+        <field name="res_model">res.country.state</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_res_country_state_search"/>
+    </record>
+
+
+<menuitem id="menu_res_country_state" parent="menu_ums_geo" name="State" action="action_res_country_state"/>
+</odoo>

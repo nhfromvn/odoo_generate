@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_discipline_type_form" model="ir.ui.view">
+                    <field name="name">discipline.type.form</field>
+                    <field name="model">discipline.type</field>
+                    <field name="arch" type="xml">
+                        <form string="Discipline Type">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                        <field name='code'/>
+                                    </group>
+                                    <group>
+                                        <field name='note'/>
+                                        <field name='object'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_discipline_type_tree" model="ir.ui.view">
+        <field name="name">discipline.type.tree</field>
+        <field name="model">discipline.type</field>
+        <field name="arch" type="xml">
+            <tree string="Discipline Type">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+                <field name='object'/>
+                <field name='sequence'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_discipline_type_search" model="ir.ui.view">
+        <field name="name">discipline.type.search</field>
+        <field name="model">discipline.type</field>
+        <field name="arch" type="xml">
+            <search string="Discipline Type">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_discipline_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Discipline Type</field>
+        <field name="res_model">discipline.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_discipline_type_search"/>
+    </record>
+
+
+<menuitem id="menu_discipline_type" parent="menu_ums_disciplinary" name="Discipline Type" action="action_discipline_type"/>
+</odoo>

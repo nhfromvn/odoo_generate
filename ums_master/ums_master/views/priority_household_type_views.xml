@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_priority_household_type_form" model="ir.ui.view">
+                    <field name="name">priority.household.type.form</field>
+                    <field name="model">priority.household.type</field>
+                    <field name="arch" type="xml">
+                        <form string="Priority Household Type">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_priority_household_type_tree" model="ir.ui.view">
+        <field name="name">priority.household.type.tree</field>
+        <field name="model">priority.household.type</field>
+        <field name="arch" type="xml">
+            <tree string="Priority Household Type">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_priority_household_type_search" model="ir.ui.view">
+        <field name="name">priority.household.type.search</field>
+        <field name="model">priority.household.type</field>
+        <field name="arch" type="xml">
+            <search string="Priority Household Type">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_priority_household_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Priority Household Type</field>
+        <field name="res_model">priority.household.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_priority_household_type_search"/>
+    </record>
+
+
+<menuitem id="menu_priority_household_type" parent="menu_ums_geo" name="Priority household type" action="action_priority_household_type"/>
+</odoo>

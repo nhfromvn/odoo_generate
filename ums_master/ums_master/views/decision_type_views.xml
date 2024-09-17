@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_decision_type_form" model="ir.ui.view">
+                    <field name="name">decision.type.form</field>
+                    <field name="model">decision.type</field>
+                    <field name="arch" type="xml">
+                        <form string="Decision Type">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='abbr_name'/>
+                                    </group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_decision_type_tree" model="ir.ui.view">
+        <field name="name">decision.type.tree</field>
+        <field name="model">decision.type</field>
+        <field name="arch" type="xml">
+            <tree string="Decision Type">
+                <field name='name'/>
+                <field name='abbr_name'/>
+                <field name='code'/>
+                <field name='note'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_decision_type_search" model="ir.ui.view">
+        <field name="name">decision.type.search</field>
+        <field name="model">decision.type</field>
+        <field name="arch" type="xml">
+            <search string="Decision Type">
+                <field name='name'/>
+                <field name='code'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_decision_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Decision Type</field>
+        <field name="res_model">decision.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_decision_type_search"/>
+    </record>
+
+
+<menuitem id="menu_decision_type" parent="menu_ums_certi" name="Decision Type" action="action_decision_type"/>
+</odoo>

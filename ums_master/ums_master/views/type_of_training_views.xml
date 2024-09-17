@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_type_of_training_form" model="ir.ui.view">
+                    <field name="name">type.of.training.form</field>
+                    <field name="model">type.of.training</field>
+                    <field name="arch" type="xml">
+                        <form string="Type Of Training">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_type_of_training_tree" model="ir.ui.view">
+        <field name="name">type.of.training.tree</field>
+        <field name="model">type.of.training</field>
+        <field name="arch" type="xml">
+            <tree string="Type Of Training">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='sequence'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_type_of_training_search" model="ir.ui.view">
+        <field name="name">type.of.training.search</field>
+        <field name="model">type.of.training</field>
+        <field name="arch" type="xml">
+            <search string="Type Of Training">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_type_of_training" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Type Of Training</field>
+        <field name="res_model">type.of.training</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_type_of_training_search"/>
+    </record>
+
+
+<menuitem id="menu_type_of_training" parent="menu_ums_training_program" name="Type of training" action="action_type_of_training"/>
+</odoo>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_funding_agency_form" model="ir.ui.view">
+                    <field name="name">funding.agency.form</field>
+                    <field name="model">funding.agency</field>
+                    <field name="arch" type="xml">
+                        <form string="Funding Agency">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_funding_agency_tree" model="ir.ui.view">
+        <field name="name">funding.agency.tree</field>
+        <field name="model">funding.agency</field>
+        <field name="arch" type="xml">
+            <tree string="Funding Agency">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_funding_agency_search" model="ir.ui.view">
+        <field name="name">funding.agency.search</field>
+        <field name="model">funding.agency</field>
+        <field name="arch" type="xml">
+            <search string="Funding Agency">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_funding_agency" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Funding Agency</field>
+        <field name="res_model">funding.agency</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_funding_agency_search"/>
+    </record>
+
+
+<menuitem id="menu_funding_agency" parent="menu_ums_science_research" name="Funding agency" action="action_funding_agency"/>
+</odoo>

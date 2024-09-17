@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_scholarship_type_form" model="ir.ui.view">
+                    <field name="name">scholarship.type.form</field>
+                    <field name="model">scholarship.type</field>
+                    <field name="arch" type="xml">
+                        <form string="Scholarship Type">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                    </group>
+                                    <group>
+                                        <field name='name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_scholarship_type_tree" model="ir.ui.view">
+        <field name="name">scholarship.type.tree</field>
+        <field name="model">scholarship.type</field>
+        <field name="arch" type="xml">
+            <tree string="Scholarship Type">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_scholarship_type_search" model="ir.ui.view">
+        <field name="name">scholarship.type.search</field>
+        <field name="model">scholarship.type</field>
+        <field name="arch" type="xml">
+            <search string="Scholarship Type">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_scholarship_type" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Scholarship Type</field>
+        <field name="res_model">scholarship.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_scholarship_type_search"/>
+    </record>
+
+
+<menuitem id="menu_scholarship_type" parent="menu_ums_scholarship" name="Type of scholarship" action="action_scholarship_type"/>
+</odoo>

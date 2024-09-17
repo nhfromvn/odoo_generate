@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_res_state_district_form" model="ir.ui.view">
+                    <field name="name">res.state.district.form</field>
+                    <field name="model">res.state.district</field>
+                    <field name="arch" type="xml">
+                        <form string="Res State District">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                        <field name='code_district_bhxh'/>
+                                    </group>
+                                    <group>
+                                        <field name='new_district_name'/>
+                                        <field name='note'/>
+                                        <field name='state_id'/>
+                                        <field name='ward_ids'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_res_state_district_tree" model="ir.ui.view">
+        <field name="name">res.state.district.tree</field>
+        <field name="model">res.state.district</field>
+        <field name="arch" type="xml">
+            <tree string="Res State District">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='code_district_bhxh'/>
+                <field name='state_id'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_res_state_district_search" model="ir.ui.view">
+        <field name="name">res.state.district.search</field>
+        <field name="model">res.state.district</field>
+        <field name="arch" type="xml">
+            <search string="Res State District">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_res_state_district" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Res State District</field>
+        <field name="res_model">res.state.district</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_res_state_district_search"/>
+    </record>
+
+
+<menuitem id="menu_res_state_district" parent="menu_ums_geo" name="District" action="action_res_state_district"/>
+</odoo>

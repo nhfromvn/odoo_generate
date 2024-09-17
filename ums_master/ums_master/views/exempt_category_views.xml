@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_exempt_category_form" model="ir.ui.view">
+                    <field name="name">exempt.category.form</field>
+                    <field name="model">exempt.category</field>
+                    <field name="arch" type="xml">
+                        <form string="Exempt Category">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='note'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_exempt_category_tree" model="ir.ui.view">
+        <field name="name">exempt.category.tree</field>
+        <field name="model">exempt.category</field>
+        <field name="arch" type="xml">
+            <tree string="Exempt Category">
+                <field name='code'/>
+                <field name='name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_exempt_category_search" model="ir.ui.view">
+        <field name="name">exempt.category.search</field>
+        <field name="model">exempt.category</field>
+        <field name="arch" type="xml">
+            <search string="Exempt Category">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_exempt_category" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Exempt Category</field>
+        <field name="res_model">exempt.category</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_exempt_category_search"/>
+    </record>
+
+
+<menuitem id="menu_exempt_category" parent="menu_ums_admin" name="Exempt category" action="action_exempt_category"/>
+</odoo>

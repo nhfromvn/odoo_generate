@@ -1,0 +1,3421 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ums_master
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e
+"
+"Report-Msgid-Bugs-To: 
+"
+"POT-Creation-Date: 2024-08-27 13:27+0000
+"
+"PO-Revision-Date: 2024-08-27 13:27+0000
+"
+"Last-Translator: 
+"
+"Language-Team: 
+"
+"MIME-Version: 1.0
+"
+"Content-Type: text/plain; charset=UTF-8
+"
+"Content-Transfer-Encoding: 
+"
+"Plural-Forms: 
+"
+
+#. module: {module_name}
+#: model:ir.ui.menu,name:{module_name}.menu_{module_name}
+msgid ""
+msgstr "" 
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_geo
+msgid "Geography and Demography"
+msgstr "Địa lý và Dân cư"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_training
+msgid "Training"
+msgstr "Đào tạo"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_hr
+msgid "Human resources"
+msgstr "Nhân sự"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_certi
+msgid "Certificate and Degree"
+msgstr "Chứng chỉ và Bằng cấp"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_finance
+msgid "Finance"
+msgstr "Tài chính"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_department
+msgid "Department"
+msgstr "Đơn vị"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_reward_disciplinary
+msgid "Reward and Disciplinary"
+msgstr "Khen thưởng và Kỷ luật"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_science_research
+msgid "Science and reasearch"
+msgstr "Khoa học và Nghiên cứu"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_admin
+msgid "Administrative and Politics"
+msgstr "Hành chính và Chính trị"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_health
+msgid "Health and Medicine"
+msgstr "Y tế và Sức khỏe"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_course
+msgid "Course"
+msgstr "Môn học"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_training_program
+msgid "Training program"
+msgstr "Chương trình đào tạo"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_learning_space
+msgid "Learning space"
+msgstr "Phòng học"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_hr_titles
+msgid "Titles and Positions"
+msgstr "Chức danh và chức vụ"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_hr_pay_grade
+msgid "Pay grade"
+msgstr "Ngạch - Bậc lương"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_hr_qualification
+msgid "Educational Qualification"
+msgstr "Trình độ giáo dục"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_hr_other
+msgid "Other"
+msgstr "Khác"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_resources
+msgid "Financial Resources"
+msgstr "Nguồn tài chính"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_revenue_gr
+msgid "Revenue"
+msgstr "Khoản thu"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_expense_gr
+msgid "Expense"
+msgstr "Khoản chi"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_income_types
+msgid "Income Types"
+msgstr "Loại thu nhập"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_scholarship
+msgid "Scholarship"
+msgstr "Học bổng"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_reward
+msgid "Rewards"
+msgstr "Khen thưởng"         
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_disciplinary
+msgid "Disciplinary"
+msgstr "Kỷ luật"         
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_political_theory
+msgid "Political Theory Level"
+msgstr "Trình độ chính trị "
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_political_theory
+msgid "Political Theory Level"
+msgstr "Trình độ chính trị "          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_political_theory__name
+msgid "Qualification Title"
+msgstr "Tên trình độ "       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_political_theory__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_political_theory__code
+msgid "Level code"
+msgstr "Mã trình độ"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_political_theory_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã trình độ phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_political_theory__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_state_management
+msgid "Public Administration Level"
+msgstr "Trình độ quản lý Nhà nước"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_state_management
+msgid "Public Administration Level"
+msgstr "Trình độ quản lý Nhà nước"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_state_management__name
+msgid "Qualification Title"
+msgstr "Tên trình độ "       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_state_management__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_state_management__code
+msgid "Level code"
+msgstr "Mã trình độ"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_state_management_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã trình độ phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_state_management__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_computer_skill
+msgid "Computer Skill Level"
+msgstr "Trình độ tin học"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_computer_skill
+msgid "Computer Skill Level"
+msgstr "Trình độ tin học"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_computer_skill__name
+msgid "Qualification Title"
+msgstr "Tên trình độ "       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_computer_skill__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_computer_skill__code
+msgid "Level code"
+msgstr "Mã trình độ"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_computer_skill_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã trình độ phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_computer_skill__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_research_area
+msgid "Research Area"
+msgstr "Lĩnh vực nghiên cứu"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_research_area
+msgid "Research Area"
+msgstr "Lĩnh vực nghiên cứu"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_area__name
+msgid "Name of research field"
+msgstr "Tên lĩnh vực nghiên cứu"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_area__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_area__code
+msgid "Field of research code"
+msgstr "Mã lĩnh vực"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_research_area_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã lĩnh vực phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_area__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_discipline_type
+msgid "Discipline Type"
+msgstr "Hình thức kỷ luật"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_discipline_type
+msgid "Discipline Type"
+msgstr "Hình thức kỷ luật"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_discipline_type__name
+msgid "Name "
+msgstr "Tên"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_discipline_type__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_discipline_type__code
+msgid "Code"
+msgstr "Mã"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_discipline_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_discipline_type__note
+msgid "Note"
+msgstr "Chú thích"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_discipline_type__object
+msgid "Object"
+msgstr "Đối tượng"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__discipline_type__object__gv_cbnv
+msgid "Officers"
+msgstr "Giảng viên/CBNV"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__discipline_type__object__sv
+msgid "Students"
+msgstr "Sinh viên"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_discipline_type__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_appointment_form
+msgid "Appointment Form"
+msgstr "Hình thức bổ nhiệm"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_appointment_form
+msgid "Appointment Form"
+msgstr "Hình thức bổ nhiệm"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_appointment_form__name
+msgid "Form Name"
+msgstr "Tên hình thức"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_appointment_form__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_appointment_form__code
+msgid "Form code"
+msgstr "Mã hình thức"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_appointment_form_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã hình thức phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_appointment_form__note
+msgid "Note"
+msgstr "Chú thích"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_appointment_form__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_decision_type
+msgid "Decision Type"
+msgstr "Loại quyết định"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_decision_type
+msgid "Decision Type"
+msgstr "Loại quyết định"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_decision_type__name
+msgid "Name "
+msgstr "Tên"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_decision_type__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_decision_type__code
+msgid "Code"
+msgstr "Mã"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_decision_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_decision_type__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_teacher_title
+msgid "Teacher Title"
+msgstr "Danh hiệu nhà giáo"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_teacher_title
+msgid "Teacher Title"
+msgstr "Danh hiệu nhà giáo"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_teacher_title__name
+msgid "Title name"
+msgstr "Tên danh hiệu"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_teacher_title__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_teacher_title__code
+msgid "Title code"
+msgstr "Mã danh hiệu"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_teacher_title_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã danh hiệu phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_teacher_title__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_teaching_method
+msgid "Teaching Method"
+msgstr "Hình thức giảng dạy"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_teaching_method
+msgid "Teaching Method"
+msgstr "Hình thức giảng dạy"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_teaching_method__name
+msgid "Form Name"
+msgstr "Tên hình thức"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_teaching_method__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_teaching_method__code
+msgid "Form code"
+msgstr "Mã hình thức"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_teaching_method_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã hình thức phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_teaching_method__note
+msgid "Note"
+msgstr "Chú thích"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_teaching_method__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_lecturer_status
+msgid "Lecturer Status"
+msgstr "Tình trạng giảng viên"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_lecturer_status
+msgid "Lecturer Status"
+msgstr "Tình trạng giảng viên"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_lecturer_status__name
+msgid "Status Name"
+msgstr "Tên tình trạng"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_lecturer_status__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_lecturer_status__code
+msgid "Status code"
+msgstr "Mã tình trạng"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_lecturer_status_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã tình trạng phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_lecturer_status__note
+msgid "Note"
+msgstr "Chú thích"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_lecturer_status__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_academic_level
+msgid "Education level"
+msgstr "Trình độ học vấn"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_academic_level
+msgid "Education level"
+msgstr "Trình độ học vấn"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_academic_level__name
+msgid "Qualification Title"
+msgstr "Tên trình độ "       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_academic_level__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_academic_level__code
+msgid "Level code"
+msgstr "Mã trình độ"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_academic_level_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã trình độ phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_academic_level__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_reward_decision
+msgid "Rewarder"
+msgstr "Cấp khen thưởng"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_reward_decision
+msgid "Rewarder"
+msgstr "Cấp khen thưởng"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_reward_decision__name
+msgid "Name "
+msgstr "Tên"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_reward_decision__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_reward_decision__code
+msgid "Code"
+msgstr "Mã"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_reward_decision_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_reward_decision__object
+msgid "Object"
+msgstr "Đối tượng"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__hr_reward_decision__object__gv_cbnv
+msgid "Officers"
+msgstr "Giảng viên/CBNV"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__hr_reward_decision__object__sv
+msgid "Students"
+msgstr "Sinh viên"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_reward_decision__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_commendation_method
+msgid "Commendation Method"
+msgstr "Phương thức khen thưởng"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_commendation_method
+msgid "Commendation Method"
+msgstr "Phương thức khen thưởng"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_commendation_method__name
+msgid "Method name"
+msgstr "Tên phương thức"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_commendation_method__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_commendation_method__code
+msgid "Method code"
+msgstr "Mã phương thức"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_commendation_method_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã phương thức phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_commendation_method__note
+msgid "Note"
+msgstr "Chú thích"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_commendation_method__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_commendation_method__object
+msgid "Object"
+msgstr "Đối tượng"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__commendation_method__object__gv_cbnv
+msgid "Officers"
+msgstr "Giảng viên/CBNV"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__commendation_method__object__sv
+msgid "Students"
+msgstr "Sinh viên"  
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_award_type
+msgid "Award Type"
+msgstr "Loại khen thưởng"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_award_type
+msgid "Award Type"
+msgstr "Loại khen thưởng"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_award_type__name
+msgid "Name "
+msgstr "Tên"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_award_type__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_award_type__code
+msgid "Code"
+msgstr "Mã"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_award_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_award_type__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_award_type__object
+msgid "Object"
+msgstr "Đối tượng"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__award_type__object__gv_cbnv
+msgid "Officers"
+msgstr "Giảng viên/CBNV"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__award_type__object__sv
+msgid "Students"
+msgstr "Sinh viên"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_award_type__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_contract_type
+msgid "Contract Type"
+msgstr "Loại hợp đồng"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_contract_type
+msgid "Contract Type"
+msgstr "Loại hợp đồng"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_contract_type__name
+msgid "Name "
+msgstr "Tên"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_contract_type__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_contract_type__code
+msgid "Code"
+msgstr "Mã"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_contract_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_contract_type__note
+msgid "Note"
+msgstr "Chú thích"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_contract_type__month
+msgid "Month"
+msgstr "Thời gian kết thúc hợp đồng"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_object_classification
+msgid "Object Classification"
+msgstr "Phân loại đối tượng"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_object_classification
+msgid "Object Classification"
+msgstr "Phân loại đối tượng"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_object_classification__name
+msgid "Name "
+msgstr "Tên"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_object_classification__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_object_classification__code
+msgid "Code"
+msgstr "Mã"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_object_classification_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_object_classification__note
+msgid "Note"
+msgstr "Chú thích"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_income_type
+msgid "Income Type"
+msgstr "Loại thu nhập"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_income_type
+msgid "Income Type"
+msgstr "Loại thu nhập"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_income_type__name
+msgid "Name "
+msgstr "Tên "       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_income_type__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_income_type__code
+msgid "Code"
+msgstr "Mã "       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_income_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã  phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_income_type__type
+msgid "Type of income"
+msgstr "Loại thu nhập"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__income_type__type__tax
+msgid "Tax"
+msgstr "Có thuế"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__income_type__type__notax
+msgid "Notax"
+msgstr "Không có thuế"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_income_type__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_income_type__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_major_program
+msgid "Major"
+msgstr "Ngành đào tạo"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_major_program
+msgid "Major"
+msgstr "Ngành đào tạo"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_major_program__code
+msgid "Major program code"
+msgstr "Mã ngành đào tạo"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_major_program_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã ngành đào tạo phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_major_program__name
+msgid "Major program name"
+msgstr "Tên ngành đào tạo"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_major_program__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_major_program__note
+msgid "note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_major_program__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_education_level
+msgid "Training level"
+msgstr "Trình độ đào tạo"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_education_level
+msgid "Training level"
+msgstr "Trình độ đào tạo"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_level__code
+msgid "Education level code"
+msgstr "Mã trình độ đào tạo"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_education_level_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã trình độ đào tạo phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_level__name
+msgid "Education level name"
+msgstr "Tên trình độ đào tạo"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_level__note
+msgid "note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_level__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_research_level
+msgid "Research level"
+msgstr "Cấp độ đề tài"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_research_level
+msgid "Research level"
+msgstr "Cấp độ đề tài"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_level__code
+msgid "Research level code"
+msgstr "Mã cấp độ đề tài"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_research_level_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã cấp độ đề tài phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_level__name
+msgid "Research level name"
+msgstr "Tên cấp độ đề tài"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_level__note
+msgid "note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_level__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_topic_research
+msgid "Topic area"
+msgstr "Lĩnh vực đề tài"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_topic_research
+msgid "Topic area"
+msgstr "Lĩnh vực đề tài"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_topic_research__code
+msgid "Research area code"
+msgstr "Mã lĩnh vực đề tài"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_topic_research_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã lĩnh vực đề tài phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_topic_research__name
+msgid "Research area name"
+msgstr "Tên lĩnh vực đề tài"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_topic_research__note
+msgid "note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_topic_research__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_type_of_training
+msgid "Type of training"
+msgstr "Hệ đào tạo"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_type_of_training
+msgid "Type of training"
+msgstr "Hệ đào tạo"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_type_of_training__code
+msgid "Type of training code"
+msgstr "Mã hệ đào tạo"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_type_of_training_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã hệ đào tạo phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_type_of_training__name
+msgid "Type of training name"
+msgstr "Tên hệ đào tạo"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_type_of_training__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_type_of_training__note
+msgid "note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_type_of_training__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_army_rank
+msgid "Rank of army"
+msgstr "Quân hàm"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_army_rank
+msgid "Rank of army"
+msgstr "Quân hàm"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_army_rank__code
+msgid "Army rank code"
+msgstr "Mã quân hàm"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_army_rank_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã quân hàm phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_army_rank__name
+msgid "Army rank name"
+msgstr "Tên quân hàm"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_army_rank__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_army_rank__note
+msgid "note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_army_rank__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_revenue
+msgid "Revenue"
+msgstr "Khoản thu"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_revenue
+msgid "Revenue"
+msgstr "Khoản thu"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_revenue__code
+msgid "Additional fees code"
+msgstr "Mã khoản thu"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_revenue_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã khoản thu phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_revenue__name
+msgid "Additional fees code"
+msgstr "Tên khoản thu"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_revenue__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_revenue__note
+msgid "note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_revenue__type
+msgid "Type"
+msgstr "Loại"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_revenue__type__additional
+msgid "Besides Tuition Fees"
+msgstr "Ngoài học phí"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_revenue__type__tuition
+msgid "Tuition Fees"
+msgstr "Học phí"  
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_expense
+msgid "Expense"
+msgstr "Khoản chi"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_expense
+msgid "Expense"
+msgstr "Khoản chi"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_expense__code
+msgid "Expense code"
+msgstr "Mã khoản chi"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_expense_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã khoản chi phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_expense__name
+msgid "Expense name"
+msgstr "Tên khoản chi"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_expense__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_expense__note
+msgid "note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_certificate_type
+msgid "Certificate Type"
+msgstr "Loại chứng chỉ"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_certificate_type
+msgid "Certificate Type"
+msgstr "Loại chứng chỉ"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_certificate_type__code
+msgid "Certificate type code"
+msgstr "Mã loại chứng chỉ"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_certificate_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã loại chứng chỉ phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_certificate_type__name
+msgid "Certificate type code"
+msgstr "Tên loại chứng chỉ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_certificate_type__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_certificate_type__note
+msgid "note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_res_lang
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_res_lang
+msgid "Language"
+msgstr "Ngôn ngữ"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_lang__code
+msgid "Language code"
+msgstr "Mã ngôn ngữ"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_res_lang_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã ngôn ngữ phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_lang__name
+msgid "Language name"
+msgstr "Tên ngôn ngữ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_lang__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_lang__note
+msgid "note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_training_type
+msgid "Training Type"
+msgstr "Loại rèn luyện"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_training_type
+msgid "Training Type"
+msgstr "Loại rèn luyện"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_training_type__code
+msgid "Training type code"
+msgstr "Mã loại rèn luyện"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_training_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã loại rèn luyện phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_training_type__name
+msgid "Training type name"
+msgstr "Tên loại rèn luyện"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_training_type__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_training_type__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_specialization
+msgid "Specialization"
+msgstr "Chuyên ngành"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_specialization
+msgid "Specialization"
+msgstr "Chuyên ngành"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_specialization__code
+msgid "Specialization code"
+msgstr "Mã chuyên ngành"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_specialization_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã chuyên ngành phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_specialization__name
+msgid "Specialization name"
+msgstr "Tên chuyên ngành"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_specialization__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_specialization__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_scholarship_type
+msgid "Type of scholarship"
+msgstr "Loại quỹ học bổng"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_scholarship_type
+msgid "Type of scholarship"
+msgstr "Loại quỹ học bổng"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_scholarship_type__code
+msgid "Scholarship type code"
+msgstr "Mã loại quỹ học bổng"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_scholarship_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã loại quỹ học bổng phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_scholarship_type__name
+msgid "Scholarship type name"
+msgstr "Tên loại quỹ học bổng"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_scholarship_type__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_wounded_soldier_class
+msgid "Wounded soldier level"
+msgstr "Hạng thương binh"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_wounded_soldier_class
+msgid "Wounded soldier level"
+msgstr "Hạng thương binh"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_wounded_soldier_class__code
+msgid "Wounded soldier class code"
+msgstr "Mã hạng thương binh"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_wounded_soldier_class_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã hạng thương binh phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_wounded_soldier_class__name
+msgid "Wounded soldier class name"
+msgstr "Tên hạng thương binh"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_wounded_soldier_class__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_education_form
+msgid "Education Form"
+msgstr "Hình thức đào tạo"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_education_form
+msgid "Education Form"
+msgstr "Hình thức đào tạo"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_form__code
+msgid "Education form code"
+msgstr "Mã hình thức đào tạo"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_education_form_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã hình thức đào tạo phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_form__name
+msgid "Education form name"
+msgstr "Tên hình thức đào tạo"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_form__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_form__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_education_type
+msgid "Education Type"
+msgstr "Loại hình đào tạo"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_education_type
+msgid "Education Type"
+msgstr "Loại hình đào tạo"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_type__code
+msgid "Education type code"
+msgstr "Mã loại hình đào tạo"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_education_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã loại hình đào tạo phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_type__name
+msgid "Education type name"
+msgstr "Tên loại hình đào tạo"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_type__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_education_type__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_academic_year
+msgid "Academic Year"
+msgstr "Năm học"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_academic_year
+msgid "Academic Year"
+msgstr "Năm học"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_academic_year__code
+msgid "Academic year code"
+msgstr "Mã năm học"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_academic_year_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã năm học phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_academic_year__name
+msgid "Academic year name"
+msgstr "Tên năm học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_academic_year__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_priority_household_type
+msgid "Priority household type"
+msgstr "Hộ gia đình chính sách"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_priority_household_type
+msgid "Priority household type"
+msgstr "Hộ gia đình chính sách"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_priority_household_type__code
+msgid "Priority household code"
+msgstr "Mã loại hộ gia đình chính sách"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_priority_household_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã loại hộ gia đình chính sách phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_priority_household_type__name
+msgid "Priority household name"
+msgstr "Tên loại hộ gia đình chính sách"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_priority_household_type__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_priority_household_type__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_cohort
+msgid "Cohort"
+msgstr "Khóa học"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_cohort
+msgid "Cohort"
+msgstr "Khóa học"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_cohort__code
+msgid "Course code"
+msgstr "Mã khóa học"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_cohort_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã khóa học phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_cohort__name
+msgid "Course name"
+msgstr "Tên khóa học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_cohort__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_cohort__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_research_title
+msgid "Research title"
+msgstr "Chức danh nghiên cứu khoa học"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_research_title
+msgid "Research title"
+msgstr "Chức danh nghiên cứu khoa học"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_title__code
+msgid "Research title code"
+msgstr "Mã chức danh nghiên cứu khoa học"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_research_title_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã chức danh nghiên cứu khoa học phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_title__name
+msgid "Research title name"
+msgstr "Tên chức danh nghiên cứu khoa học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_title__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_scientific_title
+msgid "Scientific title"
+msgstr "Chức danh khoa học"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_scientific_title
+msgid "Scientific title"
+msgstr "Chức danh khoa học"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_scientific_title__code
+msgid "Scientific title code"
+msgstr "Mã chức danh khoa học"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_scientific_title_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã chức danh khoa học phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_scientific_title__name
+msgid "Scientific title name"
+msgstr "Tên chức danh khoa học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_scientific_title__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_exempt_category
+msgid "Exempt category"
+msgstr "Đối tượng miễn giảm"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_exempt_category
+msgid "Exempt category"
+msgstr "Đối tượng miễn giảm"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_exempt_category__code
+msgid "Exempt category code"
+msgstr "Mã đối tượng miễn giảm"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_exempt_category_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã đối tượng miễn giảm phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_exempt_category__name
+msgid "Exempt category name"
+msgstr "Tên đối tượng miễn giảm"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_exempt_category__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_exempt_category__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_research_proposal
+msgid "Research proposal"
+msgstr "Hồ sơ đề tài"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_research_proposal
+msgid "Research proposal"
+msgstr "Hồ sơ đề tài"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_proposal__code
+msgid "Research proposal code"
+msgstr "Mã hồ sơ đề tài"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_research_proposal_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã hồ sơ đề tài phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_proposal__name
+msgid "Research proposal name"
+msgstr "Tên hồ sơ đề tài"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_proposal__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_research_proposal__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_funding_agency
+msgid "Funding agency"
+msgstr "Nguồn vốn đề tài"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_funding_agency
+msgid "Funding agency"
+msgstr "Nguồn vốn đề tài"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_funding_agency__code
+msgid "Funding agency code"
+msgstr "Mã nguồn vốn đề tài"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_funding_agency_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã nguồn vốn đề tài phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_funding_agency__name
+msgid "Funding agency name"
+msgstr "Tên nguồn vốn đề tài"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_funding_agency__abbr_name
+msgid "Abbreviation name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_funding_agency__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_academic
+msgid "Academic Title"
+msgstr "Học hàm"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_academic
+msgid "Academic Title"
+msgstr "Học hàm"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_academic__name
+msgid "Name academic title"
+msgstr "Tên học hàm"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_academic__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_academic__code
+msgid "Code"
+msgstr "Mã học hàm"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_academic_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã học hàm phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_academic__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_academic__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_degree
+msgid "Academic Degree"
+msgstr "Học vị"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_degree
+msgid "Academic Degree"
+msgstr "Học vị"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_degree__name
+msgid "Name academic degree"
+msgstr "Tên học vị"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_degree__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_degree__code
+msgid "Degree code"
+msgstr "Mã học vị"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_degree_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã học vị phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_degree__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_degree__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_ethnic
+msgid "Ethnicity"
+msgstr "Dân tộc"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_ethnic
+msgid "Ethnicity"
+msgstr "Dân tộc"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_ethnic__name
+msgid "Name ethnicity"
+msgstr "Tên dân tộc"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_ethnic__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_ethnic__code
+msgid "Ethnic code"
+msgstr "Mã dân tộc"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_ethnic_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã dân tộc phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_ethnic__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_ethnic__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_religion
+msgid "Religion"
+msgstr "Tôn giáo"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_religion
+msgid "Religion"
+msgstr "Tôn giáo"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_religion__name
+msgid "Name religion"
+msgstr "Tên tôn giáo"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_religion__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_religion__code
+msgid "Religious code"
+msgstr "Mã tôn giáo"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_religion_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã tôn giáo phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_religion__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_religion__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_bms_hr_job_tilte
+msgid "Job Title"
+msgstr "Không có mô tả"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_bms_hr_job_tilte
+msgid "Job Title"
+msgstr "Không có mô tả"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_bms_hr_job_tilte__name
+msgid "Job title name"
+msgstr "Tên chức danh nghề"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_bms_hr_job_tilte__code
+msgid "Job title code"
+msgstr "Mã chức danh nghề"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_bms_hr_job_tilte_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã chức danh nghề phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_bms_hr_job_tilte__toxic_profession
+msgid "Is toxic profession"
+msgstr "Ngành/nghề nặng nhọc, độc hại"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_bms_hr_job_tilte__is_mid_level_tech
+msgid "Is mid-level technical"
+msgstr "Chuyên môn kỹ thuật bậc trung"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_bms_hr_job_tilte__color
+msgid "Color"
+msgstr "Màu sắc"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_bms_hr_job_tilte__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_bms_hr_job_tilte__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_tilte
+msgid "Lecturer Position"
+msgstr "Chức danh giảng viên"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_tilte
+msgid "Lecturer Position"
+msgstr "Chức danh giảng viên"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_tilte__name
+msgid "Name lecturer position"
+msgstr "Tên chức danh giảng viên"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_tilte__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_tilte__code
+msgid "Lecturer position code "
+msgstr "Mã chức danh giảng viên"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_tilte_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã chức danh giảng viên phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_tilte__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_tilte__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_subject
+msgid "Subject"
+msgstr "Môn học"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_subject
+msgid "Subject"
+msgstr "Môn học"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__code
+msgid "Subject Code"
+msgstr "Mã môn học"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_subject_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã môn học phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__name
+msgid "Subject Name"
+msgstr "Tên môn học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__sub_eng_name
+msgid "English Name"
+msgstr "Tên tiếng anh"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__credit
+msgid "Credit"
+msgstr "Số tín chỉ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__credit_theory
+msgid "Credit Theory"
+msgstr "Số tín chỉ LT"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__credit_pract
+msgid "Credit Practice"
+msgstr "Số tín chỉ TH"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__pract_type
+msgid "Practice Type"
+msgstr "Hình thức thực hành"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__old_code
+msgid "Old Code"
+msgstr "Mã môn học cũ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__process_evaluation_duration
+msgid "Process Evaluation Percent"
+msgstr "Tỷ lệ đánh giá quá trình"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__midterm_evaluation_duration
+msgid "Midterm Evaluation Percent"
+msgstr "Tỷ lệ đánh giá giữa kỳ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__final_evaluation_duration
+msgid "Final Evaluation Percent"
+msgstr "Tỷ lệ đánh giá cuối kỳ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__practical_evaluation_duration
+msgid "Practical Evaluation Percent"
+msgstr "Tỷ lệ đánh giá thực hành"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__midterm_theory_exam_format
+msgid "Midterm theory exam format"
+msgstr "Hình thức thi lý thuyết giữa kỳ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__midterm_theory_exam_time
+msgid "Midterm theory exam time"
+msgstr "Thời gian thi lý thuyết giữa kỳ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__final_theory_exam_format
+msgid "Final theory exam format"
+msgstr "Hình thức thi lý thuyết cuối kỳ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__final_theory_exam_time
+msgid "Final theory exam time"
+msgstr "Thời gian thi lý thuyết cuối kỳ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__final_practical_exam_format
+msgid "Final practical exam format"
+msgstr "Hình thức thi thực hành cuối kỳ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__state
+msgid "State"
+msgstr "Trạng thái"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_subject__state__0
+msgid "Validity"
+msgstr "Còn hiệu lực"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_subject__state__1
+msgid "Not Validity"
+msgstr "Hết hiệu lực"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__type_sub
+msgid "Type Subject"
+msgstr "Phân loại môn học"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_subject__type_sub__out_training
+msgid "Out training"
+msgstr "Ngoài đào tạo"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_subject__type_sub__in_training
+msgid "In_training"
+msgstr "Môn học"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_subject__type_sub__equivalent_sub
+msgid "Equivalent sub"
+msgstr "Môn học tương đương"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__categorization
+msgid "Categorization"
+msgstr "Phân loại"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_subject__categorization__td
+msgid "TD"
+msgstr "Tương đương"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_subject__categorization__tt
+msgid "TT"
+msgstr "Thay thế"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__subject_type_id
+msgid "Subject Type"
+msgstr "Loại môn học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__type_traning_ids
+msgid "Type of Training"
+msgstr "Hệ đào tạo"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__department_id
+msgid "Management Department"
+msgstr "Khoa quản lý"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__equi_sub_ids
+msgid "Equivalent Subject"
+msgstr "Môn học tương đương"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__pre_sub_ids
+msgid "Prerequisite Subject"
+msgstr "Môn học trước"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__req_sub_id
+msgid "Require Subject"
+msgstr "Môn học bắt buộc"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__lang_id
+msgid "Language"
+msgstr "Ngôn ngữ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__specialization_id
+msgid "Specialization"
+msgstr "Chuyên ngành"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__from_cohort_id
+msgid "Cohort from"
+msgstr "Từ khoá học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__to_cohort_id
+msgid "Cohort to"
+msgstr "Đến khoá học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__subject_equi_id
+msgid "Môn học"
+msgstr "Môn học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_subject__subject_pre_id
+msgid "Môn học"
+msgstr "Môn học"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_subject_type
+msgid "Type of Subject"
+msgstr "Loại môn học"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_subject_type
+msgid "Type of Subject"
+msgstr "Loại môn học"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_subject_type__name
+msgid "Name"
+msgstr "Tên loại môn học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_subject_type__code
+msgid "Code"
+msgstr "Mã loại môn học"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_subject_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã loại môn học phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_subject_type__abbr_name
+msgid "Abbrevation Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_subject_type__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_subject_type__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_paygrade
+msgid "Paygrade"
+msgstr "Ngạch lương"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_paygrade
+msgid "Paygrade"
+msgstr "Ngạch lương"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__code
+msgid "Code"
+msgstr "Mã ngạch lương"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_paygrade_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã ngạch lương phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__code_2
+msgid "Code 2"
+msgstr "Mã phụ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__name
+msgid "Name"
+msgstr "Tên ngạch"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__abbr_name
+msgid "Abbrevation Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__number_upgrade
+msgid "Number of upgrade"
+msgstr "Thời gian nâng bậc"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__beyond_pay_scale
+msgid "Beyond Pay Scale"
+msgstr "Vượt khung"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__paygrade_level_id
+msgid "Paygrade Level"
+msgstr "Hạng ngạch"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__paygrade_ids
+msgid "Paygrade Line"
+msgstr "Dòng ngạch lương"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade__job_title_id
+msgid "Title"
+msgstr "Chức danh"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_job_title
+msgid "Job Title"
+msgstr "Chức danh"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_job_title
+msgid "Job Title"
+msgstr "Chức danh"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_job_title__code
+msgid "Code"
+msgstr "Mã chức danh"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_job_title_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã chức danh phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_job_title__name
+msgid "Name"
+msgstr "Tên chức danh"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_job_title__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_job_title__abbr_name
+msgid "Abbrevation Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_job_title__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_paygrade_level
+msgid "Paygrade level"
+msgstr "Hạng ngạch"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_paygrade_level
+msgid "Paygrade level"
+msgstr "Hạng ngạch"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_paygrade_level__code
+msgid "Code"
+msgstr "Mã hạng ngạch"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_paygrade_level_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã hạng ngạch phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_paygrade_level__name
+msgid "Name"
+msgstr "Tên hạng ngạch"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_paygrade_level__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_paygrade_level__abbr_name
+msgid "Abbrevation Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_paygrade_level__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_salary_grade
+msgid "Salary grade"
+msgstr "Bậc lương"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_salary_grade
+msgid "Salary grade"
+msgstr "Bậc lương"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_salary_grade__code
+msgid "Code"
+msgstr "Mã bậc lương"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_salary_grade_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã bậc lương phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_salary_grade__name
+msgid "Name"
+msgstr "Tên bậc lương"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_salary_grade__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_salary_grade__abbr_name
+msgid "Abbrevation Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_salary_grade__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_paygrade_line
+msgid "paygrade line"
+msgstr "Dòng ngạch lương"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_paygrade_line
+msgid "paygrade line"
+msgstr "Dòng ngạch lương"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade_line__salary_grade_id
+msgid "Salary Grade"
+msgstr "Bậc lương"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade_line__coefficient
+msgid "Coefficient"
+msgstr "Hệ số"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade_line__paygrade_id
+msgid "Paygrade"
+msgstr "Ngạch lương"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_paygrade_line__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_type_reward
+msgid "Type of reward"
+msgstr "Hình thức khen thưởng"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_type_reward
+msgid "Type of reward"
+msgstr "Hình thức khen thưởng"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_reward__code
+msgid "Code"
+msgstr "Mã hình thức khen thưởng"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_type_reward_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã hình thức khen thưởng phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_reward__name
+msgid "Name"
+msgstr "Tên hình thức khen thưởng"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_reward__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_reward__abbr_name
+msgid "Abbrevation Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_reward__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_reward__object
+msgid "Object"
+msgstr "Đối tượng"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_type_reward__object__officer
+msgid "Officers"
+msgstr "Giảng viên/CBNV"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_type_reward__object__student
+msgid "Students"
+msgstr "Sinh viên"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_reward__award_type_id
+msgid "Award type"
+msgstr "Loại khen thưởng"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_revenue_source
+msgid "Revenue"
+msgstr "Nguồn thu"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_revenue_source
+msgid "Revenue"
+msgstr "Nguồn thu"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_revenue_source__name
+msgid "Revenue Source Name"
+msgstr "Tên nguồn thu"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_revenue_source__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_revenue_source__code
+msgid "Revenue Source Code"
+msgstr "Mã nguồn thu"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_revenue_source_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã nguồn thu phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_revenue_source__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_revenue_source__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_expense_source
+msgid "Source of expenditure"
+msgstr "Nguồn chi"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_expense_source
+msgid "Source of expenditure"
+msgstr "Nguồn chi"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_expense_source__name
+msgid "Expense Source Name"
+msgstr "Tên nguồn thu"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_expense_source__abbr_name
+msgid "Abbreviation"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_expense_source__code
+msgid "Expense Source Code"
+msgstr "Mã nguồn thu"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_expense_source_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã nguồn thu phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_expense_source__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_expense_source__type
+msgid "Type of Expense Source"
+msgstr "Loại nguồn chi"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__expense_source__type__cdl
+msgid "CDL"
+msgstr "Chi độc lập"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__expense_source__type__ctnt
+msgid "CTNT"
+msgstr "Chi theo nguồn thu"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_expense_source__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_res_district_ward
+msgid "Ward"
+msgstr "Xã/ Phường"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_res_district_ward
+msgid "Ward"
+msgstr "Xã/ Phường"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_district_ward__code
+msgid "Code of ward"
+msgstr "Mã Xã/ Phường"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_res_district_ward_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã Xã/ Phường phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_district_ward__name
+msgid "Name of ward"
+msgstr "Tên Xã/ Phường"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_district_ward__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_district_ward__new_ward_name
+msgid "New name"
+msgstr "Tên Xã/ Phường mới"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_district_ward__code_ward_bhxh
+msgid "Code of social insurance"
+msgstr "Mã BHXH"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_district_ward__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_district_ward__district_id
+msgid "District"
+msgstr "Huyện/ Quận"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_res_state_district
+msgid "District"
+msgstr "Quận/ Huyện"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_res_state_district
+msgid "District"
+msgstr "Quận/ Huyện"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_state_district__code
+msgid "Code of district"
+msgstr "Mã Quận/ Huyện"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_res_state_district_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã Quận/ Huyện phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_state_district__name
+msgid "Name of district"
+msgstr "Tên Quận/ Huyện"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_state_district__code_district_bhxh
+msgid "Code of social insurance"
+msgstr "Mã huyện BHXH"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_state_district__new_district_name
+msgid "New name"
+msgstr "Tên Quận/ Huyện mới"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_state_district__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_state_district__state_id
+msgid "State"
+msgstr "Tỉnh/ TP"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_state_district__ward_ids
+msgid "Ward"
+msgstr "Xã/ Phường"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_res_country_state
+msgid "State"
+msgstr "Tỉnh/ TP"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_res_country_state
+msgid "State"
+msgstr "Tỉnh/ TP"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__code
+msgid "Code of state"
+msgstr "Mã tỉnh/ TP"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_res_country_state_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã tỉnh/ TP phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__name
+msgid "Name of state"
+msgstr "Tên tỉnh/ TP"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__code_state_bhxh
+msgid "Code of social insurance"
+msgstr "Mã tỉnh BHXH"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__name_state_bhxh
+msgid "Name of social insurance"
+msgstr "Tên tỉnh theo BHXH"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__eng_name
+msgid "English Name"
+msgstr "Tên tiếng anh"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__other_name
+msgid "Other Name"
+msgstr "Tên khác"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__code_state_portal
+msgid "Code of State Portal"
+msgstr "Tên tỉnh trên Cổng thông tin"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__country_id
+msgid "Country"
+msgstr "Quốc gia"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country_state__district_ids
+msgid "Ward"
+msgstr "Quận/ Huyện"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_res_country
+msgid "Country"
+msgstr "Quốc gia"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_res_country
+msgid "Country"
+msgstr "Quốc gia"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country__code
+msgid "Code of country"
+msgstr "Mã quốc gia"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_res_country_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã quốc gia phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country__name
+msgid "Name of country"
+msgstr "Tên quốc gia"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country__phone_code
+msgid "Code of phone"
+msgstr "Mã điện thoại"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_res_country__state_ids
+msgid "State"
+msgstr "Tỉnh/ TP"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_family_relationship
+msgid "Relationship of family"
+msgstr "Quan hệ gia đình"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_family_relationship
+msgid "Relationship of family"
+msgstr "Quan hệ gia đình"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_family_relationship__name
+msgid "Name"
+msgstr "Tên MQH"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_family_relationship__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_family_relationship__code
+msgid "code"
+msgstr "Mã MQH"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_family_relationship_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã MQH phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_family_relationship__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_family_relationship__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_hr_place_medical
+msgid "Medical facility"
+msgstr "Cơ sở khám chữa bệnh"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_hr_place_medical
+msgid "Medical facility"
+msgstr "Cơ sở khám chữa bệnh"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_place_medical__name
+msgid "Name"
+msgstr "Tên cơ sở"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_place_medical__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_place_medical__code
+msgid "code"
+msgstr "Mã cơ sở"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_hr_place_medical_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã cơ sở phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_place_medical__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_hr_place_medical__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_blood_type
+msgid "Type of blood"
+msgstr "Nhóm máu"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_blood_type
+msgid "Type of blood"
+msgstr "Nhóm máu"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_blood_type__name
+msgid "Name"
+msgstr "Tên nhóm máu"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_blood_type__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_blood_type__code
+msgid "code"
+msgstr "Mã nhóm máu"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_blood_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã nhóm máu phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_blood_type__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_blood_type__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_room_type
+msgid "Type of classroom"
+msgstr "Loại phòng học"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_room_type
+msgid "Type of classroom"
+msgstr "Loại phòng học"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_room_type__name
+msgid "Name"
+msgstr "Tên loại phòng học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_room_type__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_room_type__code
+msgid "code"
+msgstr "Mã loại phòng học"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_room_type_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã loại phòng học phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_room_type__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_room_type__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_place
+msgid "Place"
+msgstr "Địa điểm"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_place
+msgid "Place"
+msgstr "Địa điểm"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_place__name
+msgid "Name"
+msgstr "Tên địa điểm"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_place__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_place__code
+msgid "code"
+msgstr "Mã địa điểm"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_place_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã địa điểm phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_place__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_place__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_classroom
+msgid "Room"
+msgstr "Phòng học"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_classroom
+msgid "Room"
+msgstr "Phòng học"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__name
+msgid "Name"
+msgstr "Tên phòng"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__code
+msgid "code"
+msgstr "Mã phòng"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_classroom_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã phòng phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__floor
+msgid "Floor"
+msgstr "Tầng/ Lầu"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__capacity
+msgid "Capacity"
+msgstr "Sức chứa"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__open_state
+msgid "Open State"
+msgstr "Trạng thái mở cửa"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_classroom__open_state__open
+msgid "Open"
+msgstr "Mở cửa"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_classroom__open_state__close
+msgid "Close"
+msgstr "Đóng cửa"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__register_state
+msgid "Register State"
+msgstr "Trạng thái đăng ký"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_classroom__register_state__allow
+msgid "Allow"
+msgstr "Được đăng ký"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_classroom__register_state__not_allow
+msgid "Not allow"
+msgstr "Không được đăng ký"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__approval_state
+msgid "Approval State"
+msgstr "Trạng thái phê duyệt"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_classroom__approval_state__yes
+msgid "Yes"
+msgstr "Cần phê duyệt"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_classroom__approval_state__no
+msgid "No"
+msgstr "Không cần phê duyệt"  
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__place_id
+msgid "Place"
+msgstr "Địa điểm"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__room_type_id
+msgid "Room Type"
+msgstr "Loại phòng"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_classroom__department_id
+msgid "Management Department"
+msgstr "Phòng ban quản lý"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_syllabus
+msgid "Outline"
+msgstr "Đề cương"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_syllabus
+msgid "Outline"
+msgstr "Đề cương"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_syllabus__man_department_id
+msgid "Management Department"
+msgstr "Phòng ban quản lý"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_syllabus__type_training_id
+msgid "Type of Training"
+msgstr "Hệ đào tạo"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_syllabus__cohort_id
+msgid "Cohort"
+msgstr "Khoá"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_syllabus__subject_id
+msgid "Subject"
+msgstr "Môn học"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_syllabus__references_docs
+msgid "Reference Docs"
+msgstr "Tài liệu tham khảo"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_syllabus__syllabus_files
+msgid "Syllabus files"
+msgstr "Tài liệu"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_syllabus__state
+msgid "State"
+msgstr "Trạng thái"       
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_syllabus__state__draft
+msgid "Draft"
+msgstr "Mới"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_syllabus__state__waiting
+msgid "Waiting"
+msgstr "Chờ phê duyệt"  
+    
+#. module: ums_master      
+#: model:ir.model.fields.selection,field_description:ums_master.selection__ums_syllabus__state__approved
+msgid "Approved"
+msgstr "Đã phê duyệt"  
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_type_operation
+msgid "Content of operation VN"
+msgstr "Nội dung hoạt động tại Việt Nam"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_type_operation
+msgid "Content of operation VN"
+msgstr "Nội dung hoạt động tại Việt Nam"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_operation__name
+msgid "Name"
+msgstr "Tên nội dung hoạt động"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_operation__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_operation__code
+msgid "code"
+msgstr "Mã nội dung hoạt động"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_type_operation_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã nội dung hoạt động phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_operation__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_type_operation__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_officer_evaluate
+msgid "Officer Evaluate"
+msgstr "Đánh giá công chức, viên chức"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_officer_evaluate
+msgid "Officer Evaluate"
+msgstr "Đánh giá công chức, viên chức"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_officer_evaluate__name
+msgid "Name"
+msgstr "Tên nội dung hoạt động"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_officer_evaluate__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_officer_evaluate__code
+msgid "code"
+msgstr "Mã nội dung hoạt động"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_officer_evaluate_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã nội dung hoạt động phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_officer_evaluate__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_officer_evaluate__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_academic_division
+msgid "Academic division"
+msgstr "Khối ngành"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_academic_division
+msgid "Academic division"
+msgstr "Khối ngành"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_academic_division__name
+msgid "Academic division name"
+msgstr "Tên khối ngành"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_academic_division__code
+msgid "Academic division code"
+msgstr "Mã khối ngành"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_academic_division_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã khối ngành phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_academic_division__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_academic_division__note
+msgid "Note"
+msgstr "Ghi chú"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_academic_division__sequence
+msgid "Sequence"
+msgstr "Trình tự"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_policy_subject_social_benefit
+msgid "Policy subject social benefit"
+msgstr "Đối tượng chính sách và trợ cấp xã hội"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_policy_subject_social_benefit
+msgid "Policy subject social benefit"
+msgstr "Đối tượng chính sách và trợ cấp xã hội"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_policy_subject_social_benefit__code
+msgid "Policy subject social benefit code"
+msgstr "Mã đối tượng chính sách và trợ cấp xã hội"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_policy_subject_social_benefit_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã đối tượng chính sách và trợ cấp xã hội phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_policy_subject_social_benefit__name
+msgid "Name of policy object and social allowance"
+msgstr "Tên đối tượng chính sách và trợ cấp xã hội"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_policy_subject_social_benefit__note
+msgid "Note"
+msgstr "Ghi chứ"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_education_regulations
+msgid "Education Regulations"
+msgstr "Quy chế đào tạo"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_education_regulations
+msgid "Education Regulations"
+msgstr "Quy chế đào tạo"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_education_regulations__name
+msgid "Name"
+msgstr "Tên quy chế"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_education_regulations__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_education_regulations__code
+msgid "code"
+msgstr "Mã quy chế"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_education_regulations_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã quy chế phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_education_regulations__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_education_background
+msgid "Education background"
+msgstr "Trình độ học vấn"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_education_background
+msgid "Education background"
+msgstr "Trình độ học vấn"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_education_background__name
+msgid "Name"
+msgstr "Tên trình độ"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_education_background__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_education_background__code
+msgid "code"
+msgstr "Mã trình độ"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_education_background_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã trình độ phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_education_background__note
+msgid "Note"
+msgstr "Ghi chú"       
+ 
+#. module: ums_master
+#: model:ir.actions.act_window,name:ums_master.action_ums_cost_resources
+msgid "Cost resources"
+msgstr "Nguồn kinh phí"
+
+#. module: ums_master
+#: model:ir.ui.menu,name:ums_master.menu_ums_cost_resources
+msgid "Cost resources"
+msgstr "Nguồn kinh phí"          
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_cost_resources__name
+msgid "Name"
+msgstr "Nguồn kinh phí"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_cost_resources__abbr_name
+msgid "Abbr Name"
+msgstr "Tên viết tắt"       
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_cost_resources__code
+msgid "code"
+msgstr "Mã nguồn kinh phí"       
+
+#. module: ums_master
+#: model:ir.model.constraint,message:ums_master.constraint_ums_cost_resources_code_unique_constraint
+msgid "The code must be unique."
+msgstr "Mã nguồn kinh phí phải là duy nhất."
+
+#. module: ums_master      
+#: model:ir.model.fields,field_description:ums_master.field_ums_cost_resources__note
+msgid "Note"
+msgstr "Ghi chú"       

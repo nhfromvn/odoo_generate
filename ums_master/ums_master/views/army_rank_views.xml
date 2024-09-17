@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+                <record id="view_army_rank_form" model="ir.ui.view">
+                    <field name="name">army.rank.form</field>
+                    <field name="model">army.rank</field>
+                    <field name="arch" type="xml">
+                        <form string="Army Rank">
+                            <sheet>
+                                <group>
+                                    <group>
+                                        <field name='code'/>
+                                        <field name='name'/>
+                                    </group>
+                                    <group>
+                                        <field name='abbr_name'/>
+                                        <field name='note'/>
+                                        <field name='sequence'/>
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </record>
+            
+    <record id="view_army_rank_tree" model="ir.ui.view">
+        <field name="name">army.rank.tree</field>
+        <field name="model">army.rank</field>
+        <field name="arch" type="xml">
+            <tree string="Army Rank">
+                <field name='code'/>
+                <field name='name'/>
+                <field name='sequence'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_army_rank_search" model="ir.ui.view">
+        <field name="name">army.rank.search</field>
+        <field name="model">army.rank</field>
+        <field name="arch" type="xml">
+            <search string="Army Rank">
+                <field name='code'/>
+                <field name='name'/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_army_rank" model="ir.actions.act_window">
+        <field name="type">ir.actions.act_window</field>
+        <field name="name">Army Rank</field>
+        <field name="res_model">army.rank</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_army_rank_search"/>
+    </record>
+
+
+<menuitem id="menu_army_rank" parent="menu_ums_admin" name="Rank of army" action="action_army_rank"/>
+</odoo>
