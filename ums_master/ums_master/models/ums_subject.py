@@ -37,8 +37,8 @@ class UmsSubject(models.Model):
     specialization_id = fields.Many2one(string="Specialization", comodel_name="ums.specialization", required=False)
     from_cohort_id = fields.Many2one(string="Cohort from", comodel_name="ums.cohort", required=False)
     to_cohort_id = fields.Many2one(string="Cohort to", comodel_name="ums.cohort", required=False)
-    subject_equi_id = fields.Many2one(string="Môn học", comodel_name="ums.subject", required=True)
-    subject_pre_id = fields.Many2one(string="Môn học", comodel_name="ums.subject", required=True)
+    subject_equi_id = fields.Many2one(string="Môn học", comodel_name="ums.subject", required=False)
+    subject_pre_id = fields.Many2one(string="Môn học", comodel_name="ums.subject", required=False)
 
     _sql_constraints = [
         ('code_unique_constraint', 'unique(code)', 'The code must be unique.')
