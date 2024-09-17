@@ -1,57 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-                <record id="view_ums_subject_form" model="ir.ui.view">
-                    <field name="name">ums.subject.form</field>
-                    <field name="model">ums.subject</field>
-                    <field name="arch" type="xml">
-                        <form string="Ums Subject">
-                            <sheet>
-                                <group>
-                                    <group>
-                                        <field name='code'/>
-                                        <field name='name'/>
-                                        <field name='sub_eng_name'/>
-                                        <field name='credit'/>
-                                        <field name='credit_theory'/>
-                                        <field name='credit_pract'/>
-                                        <field name='pract_type'/>
-                                        <field name='old_code'/>
-                                        <field name='process_evaluation_duration'/>
-                                        <field name='midterm_evaluation_duration'/>
-                                        <field name='final_evaluation_duration'/>
-                                        <field name='practical_evaluation_duration'/>
-                                        <field name='midterm_theory_exam_format'/>
-                                        <field name='midterm_theory_exam_time'/>
-                                        <field name='final_theory_exam_format'/>
-                                        <field name='final_theory_exam_time'/>
-                                        <field name='final_practical_exam_format'/>
-                                    </group>
-                                    <group>
-                                        <field name='state'/>
-                                        <field name='type_sub'/>
-                                        <field name='categorization'/>
-                                        <field name='sequence'/>
-                                        <field name='note'/>
-                                        <field name='subject_type_id'/>
-                                        <field name='type_traning_ids'/>
-                                        <field name='department_id'/>
-                                        <field name='equi_sub_ids'/>
-                                        <field name='pre_sub_ids'/>
-                                        <field name='req_sub_id'/>
-                                        <field name='lang_id'/>
-                                        <field name='specialization_id'/>
-                                        <field name='from_cohort_id'/>
-                                        <field name='to_cohort_id'/>
-                                        <field name='subject_equi_id'/>
-                                        <field name='subject_pre_id'/>
-                                    </group>
-                                </group>
-                            </sheet>
-                        </form>
-                    </field>
-                </record>
-            
+    <record id="view_ums_subject_form" model="ir.ui.view">
+        <field name="name">ums.subject.form</field>
+        <field name="model">ums.subject</field>
+        <field name="arch" type="xml">
+            <form string="Ums Subject">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name='code'/>
+                            <field name='name'/>
+                            <field name='sub_eng_name'/>
+                            <field name='subject_type_id'/>
+                            <field name='credit'/>
+                            <field name='credit_theory'/>
+                            <field name='credit_pract'/>
+                            <field name='department_id'/>
+                            <field name='pract_type'/>
+                            <field name='old_code'/>
+                            <field name='req_sub_id'/>
+                            <field name='process_evaluation_duration'/>
+                            <field name='midterm_evaluation_duration'/>
+                            <field name='final_evaluation_duration'/>
+                        </group>
+                        <group>
+                            <field name='practical_evaluation_duration'/>
+                            <field name='midterm_theory_exam_format'/>
+                            <field name='midterm_theory_exam_time'/>
+                            <field name='final_theory_exam_format'/>
+                            <field name='final_theory_exam_time'/>
+                            <field name='final_practical_exam_format'/>
+                            <field name='state'/>
+                            <field name='lang_id'/>
+                            <field name='type_sub'/>
+                            <field name='categorization'/>
+                            <field name='specialization_id'/>
+                            <field name='from_cohort_id'/>
+                            <field name='to_cohort_id'/>
+                            <field name='sequence'/>
+                            <field name='note'/>
+                            <field name='subject_equi_id'/>
+                            <field name='subject_pre_id'/>
+                        </group>
+
+                        <field name='type_traning_ids'/>
+                        <field name='equi_sub_ids'/>
+                        <field name='pre_sub_ids'/>
+
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
     <record id="view_ums_subject_tree" model="ir.ui.view">
         <field name="name">ums.subject.tree</field>
         <field name="model">ums.subject</field>
@@ -60,13 +62,13 @@
                 <field name='code'/>
                 <field name='name'/>
                 <field name='sub_eng_name'/>
+                <field name='subject_type_id'/>
                 <field name='credit'/>
                 <field name='credit_theory'/>
                 <field name='credit_pract'/>
-                <field name='old_code'/>
-                <field name='subject_type_id'/>
                 <field name='type_traning_ids'/>
                 <field name='department_id'/>
+                <field name='old_code'/>
             </tree>
         </field>
     </record>
@@ -91,5 +93,5 @@
     </record>
 
 
-<menuitem id="menu_ums_subject" parent="menu_ums_course" name="Subject" action="action_ums_subject"/>
+    <menuitem id="menu_ums_subject" parent="menu_ums_course" name="Subject" action="action_ums_subject"/>
 </odoo>

@@ -3,6 +3,7 @@ from odoo import models, fields
 class HrTilte(models.Model):
     _name = "hr.tilte"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Name lecturer position", required=True)

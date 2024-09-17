@@ -3,6 +3,7 @@ from odoo import models, fields
 class FundingAgency(models.Model):
     _name = "funding.agency"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Funding agency code", required=True)

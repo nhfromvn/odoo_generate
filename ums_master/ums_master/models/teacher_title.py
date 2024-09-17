@@ -3,6 +3,7 @@ from odoo import models, fields
 class TeacherTitle(models.Model):
     _name = "teacher.title"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Title name", required=True)

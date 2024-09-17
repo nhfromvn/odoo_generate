@@ -3,6 +3,7 @@ from odoo import models, fields
 class ResearchProposal(models.Model):
     _name = "research.proposal"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Research proposal code", required=True)

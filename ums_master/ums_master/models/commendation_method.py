@@ -3,6 +3,7 @@ from odoo import models, fields
 class CommendationMethod(models.Model):
     _name = "commendation.method"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Method name", required=True)

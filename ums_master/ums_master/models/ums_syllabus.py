@@ -3,6 +3,7 @@ from odoo import models, fields
 class UmsSyllabus(models.Model):
     _name = "ums.syllabus"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     man_department_id = fields.Many2one(string="Management Department", comodel_name="hr.department", required=True)

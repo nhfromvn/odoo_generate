@@ -20,7 +20,7 @@
                         </form>
                     </field>
                 </record>
-            
+
     <record id="view_policy_subject_social_benefit_tree" model="ir.ui.view">
         <field name="name">policy.subject.social.benefit.tree</field>
         <field name="model">policy.subject.social.benefit</field>

@@ -3,6 +3,7 @@ from odoo import models, fields
 class UmsSpecialization(models.Model):
     _name = "ums.specialization"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Specialization code", required=True)

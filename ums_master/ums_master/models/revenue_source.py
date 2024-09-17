@@ -3,6 +3,7 @@ from odoo import models, fields
 class RevenueSource(models.Model):
     _name = "revenue.source"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Revenue Source Name", required=True)

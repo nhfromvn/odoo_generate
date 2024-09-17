@@ -3,6 +3,7 @@ from odoo import models, fields
 class ResearchLevel(models.Model):
     _name = "research.level"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Research level code", required=True)

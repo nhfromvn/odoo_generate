@@ -3,6 +3,7 @@ from odoo import models, fields
 class TopicResearch(models.Model):
     _name = "topic.research"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Research area code", required=True)

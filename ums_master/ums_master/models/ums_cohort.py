@@ -3,6 +3,7 @@ from odoo import models, fields
 class UmsCohort(models.Model):
     _name = "ums.cohort"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Course code", required=True)

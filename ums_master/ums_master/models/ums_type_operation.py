@@ -3,6 +3,7 @@ from odoo import models, fields
 class UmsTypeOperation(models.Model):
     _name = "ums.type.operation"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Name", required=True)

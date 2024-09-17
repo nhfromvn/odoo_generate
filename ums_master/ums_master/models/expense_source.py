@@ -3,6 +3,7 @@ from odoo import models, fields
 class ExpenseSource(models.Model):
     _name = "expense.source"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Expense Source Name", required=True)

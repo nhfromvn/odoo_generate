@@ -3,6 +3,7 @@ from odoo import models, fields
 class ArmyRank(models.Model):
     _name = "army.rank"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Army rank code", required=True)

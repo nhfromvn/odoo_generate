@@ -9,6 +9,7 @@ def generate_odoo_model(df):
 class {model_class_name}(models.Model):
     _name = "{model_name}"
     _description = '{model_description}'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 {fields}
 

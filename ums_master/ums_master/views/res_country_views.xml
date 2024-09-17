@@ -1,60 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <data>
 
-                <record id="view_res_country_form" model="ir.ui.view">
-                    <field name="name">res.country.form</field>
-                    <field name="model">res.country</field>
-                    <field name="arch" type="xml">
-                        <form string="Res Country">
-                            <sheet>
+        <!-- Kế thừa và sửa đổi res.country form view -->
+        <record id="view_country_form_inherit" model="ir.ui.view">
+            <field name="name">res.country.form.inherit</field>
+            <field name="model">res.country</field>
+            <field name="inherit_id" ref="base.view_country_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form" position="replace">
+                    <form string="Res Country">
+                        <sheet>
+                            <group>
                                 <group>
-                                    <group>
-                                        <field name='code'/>
-                                        <field name='name'/>
-                                        <field name='abbr_name'/>
-                                    </group>
-                                    <group>
-                                        <field name='note'/>
-                                        <field name='phone_code'/>
-                                        <field name='state_ids'/>
-                                    </group>
+                                    <field name='code'/>
+                                    <field name='name'/>
+                                    <field name='abbr_name'/>
                                 </group>
-                            </sheet>
-                        </form>
-                    </field>
-                </record>
-            
-    <record id="view_res_country_tree" model="ir.ui.view">
-        <field name="name">res.country.tree</field>
-        <field name="model">res.country</field>
-        <field name="arch" type="xml">
-            <tree string="Res Country">
-                <field name='code'/>
-                <field name='name'/>
-                <field name='abbr_name'/>
-            </tree>
-        </field>
-    </record>
+                                <group>
+                                    <field name='note'/>
+                                    <field name='phone_code'/>
+                                    <field name='state_ids'/>
+                                </group>
+                            </group>
+                        </sheet>
+                    </form>
+                </xpath>
+            </field>
+        </record>
 
-    <record id="view_res_country_search" model="ir.ui.view">
-        <field name="name">res.country.search</field>
-        <field name="model">res.country</field>
-        <field name="arch" type="xml">
-            <search string="Res Country">
-                <field name='code'/>
-                <field name='name'/>
-            </search>
-        </field>
-    </record>
+        <!-- Kế thừa và sửa đổi res.country tree view -->
+        <record id="view_country_tree_inherit" model="ir.ui.view">
+            <field name="name">res.country.tree.inherit</field>
+            <field name="model">res.country</field>
+            <field name="inherit_id" ref="base.view_country_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree" position="replace">
+                    <tree string="Res Country">
+                        <field name='code'/>
+                        <field name='name'/>
+                        <field name='abbr_name'/>
+                    </tree>
+                </xpath>
+            </field>
+        </record>
 
-    <record id="action_res_country" model="ir.actions.act_window">
-        <field name="type">ir.actions.act_window</field>
-        <field name="name">Res Country</field>
-        <field name="res_model">res.country</field>
-        <field name="view_mode">tree,form</field>
-        <field name="search_view_id" ref="view_res_country_search"/>
-    </record>
+        <!-- Kế thừa và sửa đổi res.country search view -->
+        <record id="view_country_search_inherit" model="ir.ui.view">
+            <field name="name">res.country.search.inherit</field>
+            <field name="model">res.country</field>
+            <field name="inherit_id" ref="base.view_country_search"/>
+            <field name="arch" type="xml">
+                <xpath expr="//search" position="inside">
+                    <!-- Thêm trường vào search view -->
 
+                    <field name='abbr_name'/>
+                    <field name='name'/>
+                    <field name='code'/>
+                </xpath>
+            </field>
+        </record>
 
-<menuitem id="menu_res_country" parent="menu_ums_geo" name="Country" action="action_res_country"/>
+        <!-- Action để mở res.country form và tree view -->
+        <record id="action_master_res_country" model="ir.actions.act_window">
+            <field name="type">ir.actions.act_window</field>
+            <field name="name">Res Country</field>
+            <field name="res_model">res.country</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_country_search_inherit"/>
+        </record>
+
+        <!-- Menu item để mở action vừa tạo -->
+        <menuitem id="menu_master_res_country" parent="ums_master.menu_ums_geo" name="Country"
+                  action="action_master_res_country"/>
+
+    </data>
 </odoo>

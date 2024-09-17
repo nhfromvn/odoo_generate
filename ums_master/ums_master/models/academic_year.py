@@ -3,6 +3,7 @@ from odoo import models, fields
 class AcademicYear(models.Model):
     _name = "academic.year"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Academic year code", required=True)

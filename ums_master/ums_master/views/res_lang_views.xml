@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Kế thừa và sửa đổi res.lang form view -->
+        <record id="view_master_res_lang_form_inherit" model="ir.ui.view">
+            <field name="name">res.lang.form.inherit</field>
+            <field name="model">res.lang</field>
+            <field name="inherit_id" ref="base.res_lang_form"/>
+            <field name="arch" type="xml">
+                <form string="Languages">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name='code'/>
+                                <field name='name'/>
+                            </group>
+                            <group>
+                                <field name='abbr_name'/>
+                                <field name='note'/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Kế thừa và sửa đổi res.lang tree view -->
+        <record id="view_master_res_lang_tree_inherit" model="ir.ui.view">
+            <field name="name">res.lang.tree.inherit</field>
+            <field name="model">res.lang</field>
+            <field name="inherit_id" ref="base.res_lang_tree"/>
+            <field name="arch" type="xml">
+                <tree string="Languages">
+                    <field name='code'/>
+                    <field name='name'/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Kế thừa và sửa đổi res.lang search view -->
+        <record id="view_master_res_lang_search_inherit" model="ir.ui.view">
+            <field name="name">res.lang.search.inherit</field>
+            <field name="model">res.lang</field>
+            <field name="inherit_id" ref="base.res_lang_search"/>
+            <field name="arch" type="xml">
+                <search string="Languages">
+                    <field name='code'/>
+                    <field name='name'/>
+                </search>
+            </field>
+        </record>
+
+        <!-- Action để mở res.lang form và tree view -->
+        <record id="action_master_res_lang" model="ir.actions.act_window">
+            <field name="type">ir.actions.act_window</field>
+            <field name="name">Languages</field>
+            <field name="res_model">res.lang</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_master_res_lang_search_inherit"/>
+        </record>
+
+        <!-- Menu item để mở action vừa tạo -->
+        <menuitem id="menu_master_res_lang" parent="ums_master.menu_ums_hr_qualification" name="Languages"
+                  action="action_master_res_lang"/>
+
+    </data>
+</odoo>

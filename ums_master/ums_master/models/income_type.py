@@ -3,6 +3,7 @@ from odoo import models, fields
 class IncomeType(models.Model):
     _name = "income.type"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Name ", required=True)

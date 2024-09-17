@@ -12,17 +12,17 @@
                                         <field name='name'/>
                                         <field name='abbr_name'/>
                                         <field name='code'/>
+                                        <field name='place_id'/>
                                         <field name='floor'/>
                                         <field name='capacity'/>
-                                        <field name='open_state'/>
                                     </group>
                                     <group>
+                                        <field name='room_type_id'/>
+                                        <field name='department_id'/>
+                                        <field name='open_state'/>
                                         <field name='register_state'/>
                                         <field name='approval_state'/>
                                         <field name='note'/>
-                                        <field name='place_id'/>
-                                        <field name='room_type_id'/>
-                                        <field name='department_id'/>
                                     </group>
                                 </group>
                             </sheet>
@@ -37,14 +37,14 @@
             <tree string="Ums Classroom">
                 <field name='name'/>
                 <field name='code'/>
+                <field name='place_id'/>
                 <field name='floor'/>
                 <field name='capacity'/>
+                <field name='room_type_id'/>
+                <field name='department_id'/>
                 <field name='open_state'/>
                 <field name='register_state'/>
                 <field name='approval_state'/>
-                <field name='place_id'/>
-                <field name='room_type_id'/>
-                <field name='department_id'/>
             </tree>
         </field>
     </record>

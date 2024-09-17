@@ -3,6 +3,7 @@ from odoo import models, fields
 class UmsJobTitle(models.Model):
     _name = "ums.job.title"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Code", required=True)

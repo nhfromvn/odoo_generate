@@ -3,6 +3,7 @@ from odoo import models, fields
 class ObjectClassification(models.Model):
     _name = "object.classification"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Name ", required=True)

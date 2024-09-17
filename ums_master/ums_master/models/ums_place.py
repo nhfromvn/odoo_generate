@@ -3,6 +3,7 @@ from odoo import models, fields
 class UmsPlace(models.Model):
     _name = "ums.place"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Name", required=True)

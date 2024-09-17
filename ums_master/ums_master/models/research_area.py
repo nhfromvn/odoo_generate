@@ -3,6 +3,7 @@ from odoo import models, fields
 class ResearchArea(models.Model):
     _name = "research.area"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Name of research field", required=True)

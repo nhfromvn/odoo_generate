@@ -3,6 +3,7 @@ from odoo import models, fields
 class ResDistrictWard(models.Model):
     _name = "res.district.ward"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Code of ward", required=True)

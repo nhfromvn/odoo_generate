@@ -3,6 +3,7 @@ from odoo import models, fields
 class UmsEducationBackground(models.Model):
     _name = "ums.education.background"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Name", required=True)

@@ -16,8 +16,8 @@
                                     <group>
                                         <field name='abbr_name'/>
                                         <field name='sequence'/>
-                                        <field name='object'/>
                                         <field name='award_type_id'/>
+                                        <field name='object'/>
                                     </group>
                                 </group>
                             </sheet>

@@ -10,10 +10,10 @@
                                 <group>
                                     <group>
                                         <field name='name'/>
-                                        <field name='code'/>
+                                        <field name='abbr_name'/>
                                     </group>
                                     <group>
-                                        <field name='abbr_name'/>
+                                        <field name='code'/>
                                         <field name='note'/>
                                         <field name='sequence'/>
                                     </group>

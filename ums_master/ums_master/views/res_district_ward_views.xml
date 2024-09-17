@@ -14,10 +14,10 @@
                                         <field name='abbr_name'/>
                                     </group>
                                     <group>
+                                        <field name='district_id'/>
                                         <field name='new_ward_name'/>
                                         <field name='code_ward_bhxh'/>
                                         <field name='note'/>
-                                        <field name='district_id'/>
                                     </group>
                                 </group>
                             </sheet>

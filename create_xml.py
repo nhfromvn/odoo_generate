@@ -76,6 +76,10 @@ def generate_odoo_views(models, module, df, output_dir):
                                         {'\n                                        '.join(group2_fields)}
                                     </group>
                                 </group>
+                                 <div class="oe_chatter">
+                        <field name="message_follower_ids" options="{{'open_attachments': True}}"/>
+                        <field name="message_ids"/>
+                    </div>
                             </sheet>
                         </form>
                     </field>

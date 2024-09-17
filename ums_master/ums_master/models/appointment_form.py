@@ -3,6 +3,7 @@ from odoo import models, fields
 class AppointmentForm(models.Model):
     _name = "appointment.form"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     name = fields.Char(string="Form Name", required=True)

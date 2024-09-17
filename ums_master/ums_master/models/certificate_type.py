@@ -3,6 +3,7 @@ from odoo import models, fields
 class CertificateType(models.Model):
     _name = "certificate.type"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Certificate type code", required=True)

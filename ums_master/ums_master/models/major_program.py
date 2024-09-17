@@ -3,6 +3,7 @@ from odoo import models, fields
 class MajorProgram(models.Model):
     _name = "major.program"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Major program code", required=True)

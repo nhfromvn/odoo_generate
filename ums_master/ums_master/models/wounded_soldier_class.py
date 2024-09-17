@@ -3,6 +3,7 @@ from odoo import models, fields
 class WoundedSoldierClass(models.Model):
     _name = "wounded.soldier.class"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Wounded soldier class code", required=True)

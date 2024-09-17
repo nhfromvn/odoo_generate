@@ -3,6 +3,7 @@ from odoo import models, fields
 class UmsExpense(models.Model):
     _name = "ums.expense"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Expense code", required=True)

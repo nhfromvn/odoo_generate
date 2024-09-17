@@ -3,6 +3,7 @@ from odoo import models, fields
 class ExemptCategory(models.Model):
     _name = "exempt.category"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Exempt category code", required=True)

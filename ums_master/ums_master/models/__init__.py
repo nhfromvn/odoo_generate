@@ -44,8 +44,6 @@ from . import revenue_source
 from . import expense_source
 from . import res_district_ward
 from . import res_state_district
-from . import res_country_state
-from . import res_country
 from . import ums_blood_type
 from . import ums_room_type
 from . import ums_place
@@ -58,8 +56,3 @@ from . import policy_subject_social_benefit
 from . import ums_education_regulations
 from . import ums_education_background
 from . import ums_cost_resources
-from . import hr_personnel_directory
-from . import hr_job
-from . import res_lang
-from . import res_country
-from . import res_country_state

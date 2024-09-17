@@ -3,6 +3,7 @@ from odoo import models, fields
 class PolicySubjectSocialBenefit(models.Model):
     _name = "policy.subject.social.benefit"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Policy subject social benefit code", required=True)

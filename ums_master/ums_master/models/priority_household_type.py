@@ -3,6 +3,7 @@ from odoo import models, fields
 class PriorityHouseholdType(models.Model):
     _name = "priority.household.type"
     _description = 'No description'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
 
     code = fields.Char(string="Priority household code", required=True)
